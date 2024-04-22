@@ -94,7 +94,31 @@ img {
 footer {
     grid-area: footer;
     background-color: var(--clr-utilities-3);
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     height: 70px;
     width: 100%;
+}
+
+footer p {
+    font-family: var(--ff-title-);
+    color: var(--clr-secondary-text);
+    font-size: smaller;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li a {
+    color: var(--clr-secondary-text);
+    padding: 0.75rem 1.5rem;
+}
+
+footer ul li a:hover {
+    color: var(--clr-accent-2);
 }
