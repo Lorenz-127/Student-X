@@ -45,7 +45,7 @@ html {
     grid-template-rows: 0.2fr 2.6fr 0.2fr;
     gap: 0px 0px;
     grid-template-areas:
-        "sidebar-left header header"
+        "sidebar-left header sidebar-right"
         "sidebar-left main sidebar-right"
         "sidebar-left footer sidebar-right";
     height: 100vh;
@@ -71,14 +71,6 @@ header {
 .sidebar-right {
     grid-area: sidebar-right;
     background-color: var(--clr-utilities-3);
-}
-
-main {
-    grid-area: main;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--clr-bg);
-    flex: 1;
 }
 
 a {
@@ -138,15 +130,19 @@ img {
 
 .logo a:hover {
     text-decoration: none;
-    color: var(--clr-accent);
-    border-bottom: 1px solid var(--clr-accent);
+    color: var(--clr-accent-2);
 }
 
-/* Main */
-main .chalk img {
-    align-items: center;
-    justify-content: center;
+/* Main Content */
+
+main {
+    grid-area: main;
+    display: flex;
+    background-color: var(--clr-bg);
+    flex: 1;
 }
+
+
 
 /* Footer */
 footer {
@@ -155,6 +151,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 8px;
     height: 70px;
     width: 100%;
 }
