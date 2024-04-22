@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Asterisk selector to override the default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Main colors serious*/
+    --clr-th-light-bg: #edeffe;
+    --clr-th-light-primary: #ffffff;
+    --clr-th-light-accent-1: #4c63ed;
+    --clr-th-light-primary-text: #1b1b1a;
+
+    /* Main colors retro*/
+    --clr-th-dark-bg: #5e6c5f;
+    --clr-th-dark-primary: #fdbd9b;
+    --clr-th-dark-accent-1: #e9e9eb;
+    --clr-th-dark-accent-2: #a33a1a;
+    --clr-th-dark-primary-text: #000000;
+
+    /* Utilities color */
+    --clr-danger-1: #FFC107;
+    --clr-danger-2: #df2020;
+    --clr-divider: #bdbdbd;
+
+    /* Utilities */
+
+    /* Fonts preferred, websafe, fallback */
+    --ff-title-: "Montserrat", Verdana, sans-serif;
+    --ff-text-: "Work Sans", Tahoma, sans-serif;
+
+}
