@@ -8,28 +8,93 @@
 }
 
 :root {
-    /* Main colors serious*/
-    --clr-th-light-bg: #edeffe;
-    --clr-th-light-primary: #ffffff;
-    --clr-th-light-accent-1: #4c63ed;
-    --clr-th-light-primary-text: #1b1b1a;
 
-    /* Main colors retro*/
-    --clr-th-dark-bg: #5e6c5f;
-    --clr-th-dark-primary: #fdbd9b;
-    --clr-th-dark-accent-1: #e9e9eb;
-    --clr-th-dark-accent-2: #a33a1a;
+    /* Main colors */
+    --clr-bg: #5e6c5f;
+    --clr-accent-1: #e9e9eb;
+    --clr-accent-2: #a33a1a;
+    --clr-primary: #fdbd9b;
     --clr-th-dark-primary-text: #000000;
 
     /* Utilities color */
-    --clr-danger-1: #FFC107;
-    --clr-danger-2: #df2020;
-    --clr-divider: #bdbdbd;
+    --clr-utilities-1: #FFC107;
+    --clr-utilities-2: #df2020;
+    --clr-utilities-3: #bdbdbd;
 
     /* Utilities */
 
     /* Fonts preferred, websafe, fallback */
-    --ff-title-: "Montserrat", Verdana, sans-serif;
-    --ff-text-: "Work Sans", Tahoma, sans-serif;
+    --ff-title: "Montserrat", Verdana, sans-serif;
+    --ff-text: "Work Sans", Tahoma, sans-serif;
 
+}
+
+/* Global Styles */
+html {
+    font-family: var(--ff-text);
+    font-size: 16pt;
+    line-height: 1.5;
+    background-color: var(--clr-bg);
+    color: var(--clr-primary-text);
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.1fr 3.1fr 0.1fr;
+    grid-template-rows: 0.2fr 2.6fr 0.2fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "sidebar-left header header"
+        "sidebar-left main sidebar-right"
+        "sidebar-left footer sidebar-right";
+    height: 100vh;
+}
+
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    grid-area: header;
+    background-color: var(--clr-utilities-3);
+    height: 70px;
+    width: 100%;
+}
+
+.sidebar-left {
+    grid-area: sidebar-left;
+    background-color: var(--clr-utilities-3);
+}
+
+.sidebar-right {
+    grid-area: sidebar-right;
+    background-color: var(--clr-utilities-3);
+}
+
+main {
+    grid-area: main;
+    background-color: var(--clr-bg);
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    grid-area: footer;
+    background-color: var(--clr-utilities-3);
+    justify-content: center;
+    height: 70px;
+    width: 100%;
 }
