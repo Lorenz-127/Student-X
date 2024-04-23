@@ -44,12 +44,6 @@ body {
     min-height: 100vh;
 }
 
-header {
-    background-color: var(--clr-primary);
-    height: 100px;
-    width: 100%;
-}
-
 main {
     flex: 1 0 auto;
 }
@@ -66,7 +60,80 @@ img {
     max-width: 100%;
 }
 
-/* navbar */
+/* Header */
+header {
+    background-color: var(--clr-primary);
+    box-shadow: 0 2px 2px 0 var(--clr-box-shadow);
+    padding: 0 0.5rem;
+    width: 100%;
+    height: 75px;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-family: var(--ff-title);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Navbar with burger toggle and slide effect*/
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-burger {
+    cursor: pointer;
+    margin-right: 10px;
+    float: right;
+}
+
+.navbar-burger span {
+    height: 3px;
+    width: 30px;
+    background: var(--clr-primary-text);
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.navbar-toggle:checked~.navbar-burger span:first-child {
+    transform: rotate(45deg);
+    top: 8px;
+    background: var(--clr-utilities-2);
+}
+
+.navbar-toggle:checked~.navbar-burger span:last-child {
+    transform: rotate(-45deg);
+    top: -8px;
+    background: var(--clr-utilities-2);
+}
+
+.navbar-toggle:checked~.navbar-burger span:nth-child(2) {
+    opacity: 0;
+}
+
+
+.navbar-links {
+    background: var(--clr-primary);
+    width: 100vw;
+    padding: 30px 70px;
+    top: 77px;
+    position: absolute;
+    left: -100vw;
+    /* left: 0; */
+    transition: left 0.3s ease-in-out;
+    box-shadow: 0 2px 2px 0 var(--clr-box-shadow);
+
+}
+
+.navbar-toggle:checked~nav {
+    left: 0;
+}
 
 
 /* Main Content */
