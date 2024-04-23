@@ -121,14 +121,36 @@ header {
 .navbar-links {
     background: var(--clr-primary);
     width: 100vw;
-    padding: 30px 70px;
     top: 77px;
+    padding: 1rem 0;
     position: absolute;
     left: -100vw;
-    /* left: 0; */
     transition: left 0.3s ease-in-out;
     box-shadow: 0 2px 2px 0 var(--clr-box-shadow);
+}
 
+.navbar-links ul {
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-links ul li {
+    margin: 1rem 0;
+}
+
+.navbar-links ul li a {
+    color: var(--clr-primary-text);
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.navbar-links ul li a:hover {
+    color: var(--clr-accent-2);
+    border-bottom: 1px solid var(--clr-accent-2);
+}
+
+.navbar-links ul li a.navbar-link-active {
+    color: var(--clr-accent-2);
 }
 
 .navbar-toggle:checked~nav {
