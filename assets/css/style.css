@@ -161,9 +161,8 @@ header {
 /* Main Content */
 
 main {
-    display: flex;
     background-color: var(--clr-bg);
-    flex: 1;
+    flex-grow: 1;
 }
 
 
@@ -233,4 +232,41 @@ footer ul li a:hover {
         margin: 0.5rem 0;
         padding: 0 1rem;
     }
+}
+
+/* For laptops >= 992px and up */
+@media (min-width: 992px) {
+
+    /* Navbar */
+    .navbar-burger span {
+        display: none;
+    }
+
+    header #logo {
+        text-wrap: nowrap;
+    }
+
+    header .navbar-links {
+        height: 77px;
+        background: none;
+        width: 100vw;
+        top: 0;
+        padding: 1rem 1rem;
+        left: 0;
+        position: relative;
+        box-shadow: none;
+    }
+
+    header .navbar-links ul {
+        width: 80%;
+        padding-right: 1rem;
+        justify-content: end;
+    }
+
+    header .navbar-links ul li {
+        margin: 0;
+    }
+
+
+
 }
