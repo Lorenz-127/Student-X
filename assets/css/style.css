@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 :root {
@@ -44,6 +45,10 @@ body {
     min-height: 100vh;
 }
 
+.nav-container {
+    overflow: hidden;
+}
+
 main {
     flex: 1 0 auto;
 }
@@ -64,13 +69,13 @@ img {
 header {
     background-color: var(--clr-primary);
     box-shadow: 0 2px 2px 0 var(--clr-box-shadow);
-    padding: 0 0.5rem;
     width: 100%;
     height: 77px;
     z-index: 99;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 #logo {
@@ -78,6 +83,7 @@ header {
     font-size: 1.5rem;
     font-weight: 600;
     cursor: pointer;
+    padding: 0 0.5rem;
 }
 
 /* Navbar with burger toggle and slide effect*/
@@ -162,7 +168,6 @@ header {
 
 main {
     background-color: var(--clr-bg);
-    flex-grow: 1;
 }
 
 
@@ -184,7 +189,6 @@ footer p {
     color: var(--clr-primary-text);
     font-size: smaller;
     font-weight: 600;
-    padding-bottom: 0.5rem;
 }
 
 footer ul {
@@ -194,7 +198,7 @@ footer ul {
 
 footer ul li a {
     color: var(--clr-primary-text);
-    padding: 0.75rem 1.5rem;
+    padding: 0 2rem;
 }
 
 footer ul li a:hover {
@@ -238,22 +242,17 @@ footer ul li a:hover {
 @media (min-width: 992px) {
 
     /* Navbar */
-    .navbar-burger span {
-        display: none;
-    }
 
     header #logo {
         text-wrap: nowrap;
     }
 
     header .navbar-links {
-        height: 77px;
         background: none;
         width: 100vw;
         top: 0;
-        padding: 1rem 1rem;
+
         left: 0;
-        position: relative;
         box-shadow: none;
     }
 
