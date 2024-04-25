@@ -128,12 +128,13 @@ img {
 
 .navbar-links {
     background: var(--clr-primary-code);
-    width: 100vw;
-    top: 79px;
+    width: 25vw;
+    top: 85px;
     padding: 1rem 0;
     position: absolute;
     left: -100vw;
     transition: left 0.3s ease-in-out;
+    border-radius: 8px;
     box-shadow: 0 2px 2px 0 var(--clr-box-shadow-light);
 }
 
@@ -153,12 +154,25 @@ img {
 }
 
 .navbar-links ul li a:hover {
-    color: var(--clr-accent-2);
-    border-bottom: 1px solid var(--clr-accent-2);
+    color: var(--clr-bg-code);
+    border-bottom: 1px solid var(--clr-bg-code);
 }
 
-.navbar-links ul li a.navbar-link-active {
-    color: var(--clr-accent-2);
+.navbar-links ul li a.home-link-active {
+    color: var(--clr-bg-code);
+}
+
+.navbar-links ul li a.html-link-active {
+    color: var(--clr-accent-html);
+
+}
+
+.navbar-links ul li a.css-link-active {
+    color: var(--clr-accent-css);
+}
+
+.navbar-links ul li a.js-link-active {
+    color: var(--clr-accent-js);
 }
 
 .navbar-toggle:checked~nav {
@@ -221,8 +235,8 @@ footer ul li a:hover {
 
     .navbar-links {
         background: var(--clr-primary-code);
-        width: 100vw;
-        top: 79px;
+        width: 75vw;
+        top: 85px;
         padding: 1rem 0;
         position: absolute;
         transition: left 0.3s ease-in-out;
@@ -254,16 +268,15 @@ footer ul li a:hover {
     }
 
     header .navbar-links {
-        background: none;
         width: 100vw;
+        background: none;
         top: 0;
-
         left: 0;
         box-shadow: none;
     }
 
     header .navbar-links ul {
-        width: 80%;
+        width: 100%;
         padding-right: 1rem;
         justify-content: end;
     }
