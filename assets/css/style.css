@@ -68,9 +68,9 @@ img {
 }
 
 /* Header */
-header {
-    background-color: var(--clr-primary);
-    box-shadow: 0 2px 2px 0 var(--clr-box-shadow);
+.container-header {
+    background-color: var(--clr-primary-code);
+    box-shadow: 0 2px 2px 0 var(--clr-box-shadow-light);
     width: 100%;
     height: 77px;
     z-index: 99;
@@ -82,8 +82,9 @@ header {
 
 #logo {
     font-family: var(--ff-title);
+    color: var(--clr-primary-text);
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     padding: 0 0.5rem;
 }
