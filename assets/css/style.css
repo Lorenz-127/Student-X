@@ -13,7 +13,6 @@
 }
 
 :root {
-
     /* Main colors */
     --clr-bg: #5e6c5f;
     --clr-primary: #bdbdbd;
@@ -49,6 +48,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+header {
+    z-index: 99;
 }
 
 .container-header {
@@ -111,7 +114,8 @@ img {
     display: block;
     margin-bottom: 5px;
     position: relative;
-    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out,
+        opacity 0.3s ease-in-out;
 }
 
 .navbar-toggle:checked~.navbar-burger span:first-child {
@@ -129,7 +133,6 @@ img {
 .navbar-toggle:checked~.navbar-burger span:nth-child(2) {
     opacity: 0;
 }
-
 
 .navbar-links {
     background: var(--clr-primary-code);
@@ -169,7 +172,6 @@ img {
 
 .navbar-links ul li a.html-link-active {
     color: var(--clr-accent-html);
-
 }
 
 .navbar-links ul li a.css-link-active {
@@ -184,11 +186,9 @@ img {
     left: 0;
 }
 
-
 /* Main Content */
 main {
     background-color: var(--clr-bg-code);
-    z-index: -1;
 }
 
 section {
@@ -220,7 +220,6 @@ section {
     margin-bottom: 2rem;
 }
 
-
 /* Footer */
 footer {
     background-color: var(--clr-primary-code);
@@ -231,6 +230,7 @@ footer {
     padding-top: 8px;
     height: 70px;
     width: 100%;
+    z-index: 99;
 }
 
 footer p {
@@ -253,7 +253,6 @@ footer ul li a {
 footer ul li a:hover {
     color: var(--clr-accent-2);
 }
-
 
 /* Responsive Design*/
 
@@ -316,8 +315,6 @@ footer ul li a:hover {
     header .navbar-links ul li {
         margin: 0;
     }
-
-
 }
 
 /* Back to top Button */
@@ -335,6 +332,7 @@ main {
 
 .back-to-top-icon {
     display: block;
+    position: sticky;
     top: 85vh;
     pointer-events: all;
     text-align: center;
