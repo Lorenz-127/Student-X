@@ -187,7 +187,34 @@ main {
     z-index: -1;
 }
 
+section {
+    text-align: left;
+}
 
+.card {
+    max-width: 90vw;
+    margin-top: 2rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.card-home {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card-home img {
+    max-width: 90vw;
+}
+
+.card h3 {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.card:last-of-type {
+    margin-bottom: 2rem;
+}
 
 /* Footer */
 footer {
