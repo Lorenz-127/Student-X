@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 :root {
@@ -245,6 +244,9 @@ footer ul li a:hover {
 @media (min-width: 992px) {
 
     /* Navbar */
+    .navbar-burger span {
+        display: none;
+    }
 
     header #logo {
         text-wrap: nowrap;
