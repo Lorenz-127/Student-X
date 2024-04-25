@@ -1,0 +1,99 @@
+/* clock.css */
+
+/* JavaScript Example*/
+
+#clock {
+    color: var(--clr-accent-js);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-digit {
+    margin: 0 0.5rem;
+}
+
+.main-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    padding: 60px;
+    border-radius: 12px;
+    color: #f5f5dc;
+    background: #323232ad;
+    box-shadow: 0 10px 10px #00000066;
+    margin-bottom: 1rem;
+}
+
+.wrapper {
+    padding: 30px 0;
+    border-radius: 12px;
+    margin-top: 15px;
+    background: #ffffff26;
+    box-shadow: 0 8px 32px 0 #323232ad;
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: all 0.3s ease;
+}
+
+.wrapper:hover {
+    box-shadow: none;
+}
+
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-wrapper div {
+    width: 20%;
+    text-align: center;
+}
+
+.main-wrapper .number {
+    position: relative;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1;
+    color: beige;
+}
+
+.main-wrapper .colon {
+    font-size: 20px;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0;
+        padding: 0 20px;
+    }
+
+    .content h3 {
+        font-size: 16px;
+    }
+
+    .outer-wrapper {
+        padding: 20px 0;
+    }
+
+    .main-wrapper div {
+        width: 15%;
+    }
+
+    .main-wrapper .number {
+        font-size: 50px;
+    }
+
+    .main-wrapper .colon {
+        font-size: 16px;
+    }
+}

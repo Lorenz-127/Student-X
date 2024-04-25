@@ -16,8 +16,6 @@
     /* Main colors */
     --clr-bg: #5e6c5f;
     --clr-primary: #bdbdbd;
-    --clr-accent-1: #fdbd9b;
-    --clr-accent-2: #a33a1a;
     --clr-primary-text: #000000;
 
     /* coding colors */
@@ -29,7 +27,6 @@
     --clr-accent-js: #f7df1e;
 
     /* Utilities color */
-    --clr-utilities-1: #ffc107;
     --clr-utilities-2: #df2020;
     --clr-utilities-3: #e9e9eb;
     --clr-box-shadow-dark: #00000080;
@@ -276,7 +273,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: var(--clr-accent-2);
+    color: var(--clr-accent-html);
 }
 
 /* Back to top Button */

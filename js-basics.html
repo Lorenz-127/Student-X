@@ -18,6 +18,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <!-- Stylesheet for the JavaScript demo -->
+    <link rel="stylesheet" href="assets/css/clock.css">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
@@ -49,7 +51,102 @@
 
     <!-- Main content -->
     <main>
-        Main Content
+        <section>
+            <div class="card-box">
+                <div class="card-home">
+                    <h1>JavaScript</h1>
+                    <p>Empowering Frontend Interactivity</p>
+                    <img src="assets/images/javascript-example.png" alt="JavaScript Code"
+                        aria-label="JavaScript Code to demonstrate how the elements work" />
+                    <div class="main-container">
+                        <div class="clock">
+                            <div class="wrapper">
+                                <div class="main-wrapper">
+                                    <div class="hour">
+                                        <p class="number" id="hour"></p>
+                                        <p>hours</p>
+                                    </div>
+                                    <p class="colon">:</p>
+                                    <div class="min">
+                                        <p class="number" id="min"></p>
+                                        <p>min</p>
+                                    </div>
+                                    <p class="colon">:</p>
+                                    <div class="sec">
+                                        <p class="number" id="sec"></p>
+                                        <p>sec</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>When it comes to web development, JavaScript is the structural framework that gives online
+                        environments life, much like the fundamental components of a house give living places vibrancy.
+                        Functioning as a popular programming language at its core, it works closely with HTML and CSS to
+                        create the structural design for the internet, much as how necessary components make a house's
+                        structure.
+                    </p>
+
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <h3>Clock Logic: Bringing Time to Life</h3>
+                    <p>
+                        JavaScript, often described as the language of the web, is used to make websites more dynamic
+                        and interactive. In this example, JavaScript is employed to create a digital clock that displays
+                        the current time on a webpage.
+                    </p>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <h3>Adding Trailing Zeros: Making Numbers Look Neat</h3>
+                    <p>
+                        The first part of the code defines a function called addTrailingZero. This function ensures that
+                        single-digit numbers, such as hours, minutes, and seconds, are displayed with a leading zero for
+                        aesthetic consistency. For instance, instead of just displaying "1" for the hour, it will
+                        display "01", making the time format easier to read.
+                    </p>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <h3>Updating the Time: Capturing the Current Moment</h3>
+                    <p>
+                        The updateTime function retrieves the current time from the user's device using JavaScript's
+                        Date object. It then formats the hours, minutes, and seconds using the addTrailingZero function
+                        we mentioned earlier. This ensures that the time displayed on the webpage is always in a neat
+                        and consistent format.
+                    </p>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <h3>Displaying the Time: Bringing the Clock to Life</h3>
+                    <p>
+                        The final part of the code updates the HTML elements on the webpage with the current time. The
+                        hours, minutes, and seconds are displayed in designated areas of the webpage, allowing visitors
+                        to see the current time without needing to check their devices.
+                    </p>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <h3>Continuous Updates: Keeping Time Moving</h3>
+                    <p>
+                        To ensure that the clock always shows the correct time, the updateTime function is called when
+                        the webpage loads. Additionally, it's set to run every second using a JavaScript function called
+                        setInterval. This means that the clock is constantly updating in real-time, giving visitors an
+                        accurate representation of the current time.
+                    </p>
+                    <p>JavaScript is used in this example to create a digital clock that displays the current time on a
+                        webpage. Through a combination of functions and continuous updates, the clock comes to life,
+                        providing visitors with a dynamic and interactive experience.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -76,6 +173,10 @@
     </footer>
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/30a267eed5.js" crossorigin="anonymous"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Script for the Demo Clock -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
