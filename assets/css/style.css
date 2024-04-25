@@ -17,18 +17,20 @@
     --clr-accent-2: #a33a1a;
     --clr-primary-text: #000000;
 
+    /* coding colors */
+    --clr-bg-code: #1a1a1a;
+    --clr-primary-code: #808080;
+    --clr-primary-code-text: #bdbdbd;
+    --clr-accent-html: #e34f26;
+    --clr-accent-css: #1572b6;
+    --clr-accent-js: #f7df1e;
+
     /* Utilities color */
-    --clr-utilities-1: #FFC107;
+    --clr-utilities-1: #ffc107;
     --clr-utilities-2: #df2020;
     --clr-utilities-3: #e9e9eb;
-    --clr-box-shadow: #00000080;
-
-    /* Utilities */
-
-    /* Fonts preferred, websafe, fallback */
-    --ff-title: "Montserrat", Verdana, sans-serif;
-    --ff-text: "Work Sans", Tahoma, sans-serif;
-
+    --clr-box-shadow-dark: #00000080;
+    --clr-box-shadow-light: #e9e9eb80;
 }
 
 /* Global Styles */
