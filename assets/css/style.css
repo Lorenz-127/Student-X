@@ -195,11 +195,20 @@ section {
     text-align: left;
 }
 
-.card {
+.card-box {
     max-width: 90vw;
     margin-top: 2rem;
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 2rem;
+    border: 1px solid var(--clr-primary);
+    border-radius: 0.5rem;
+    box-shadow: 2px 4px 4px 2px var(--clr-box-shadow-light);
+    transition: transform 200ms ease-in;
+}
+
+.card {
+    padding: 0.5rem;
 }
 
 .card-home {
@@ -209,6 +218,7 @@ section {
 
 .card-home img {
     max-width: 90vw;
+    padding: 1rem;
 }
 
 .card h3 {
@@ -218,6 +228,10 @@ section {
 
 .card:last-of-type {
     margin-bottom: 2rem;
+}
+
+.card-box:hover {
+    transform: translateY(-4px);
 }
 
 /* Footer */
