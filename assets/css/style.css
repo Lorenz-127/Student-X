@@ -140,7 +140,8 @@ img {
     top: 85px;
     padding: 1rem 0;
     position: absolute;
-    left: -100vw;
+    margin-left: 20px;
+    left: +100vw;
     transition: left 0.3s ease-in-out;
     border-radius: 8px;
     box-shadow: 0 2px 2px 0 var(--clr-box-shadow-light);
@@ -284,6 +285,8 @@ footer ul li a:hover {
         top: 85px;
         padding: 1rem 0;
         position: absolute;
+        left: -100vw;
+        margin-left: 100px;
         transition: left 0.3s ease-in-out;
         box-shadow: 0 2px 2px 0 var(--clr-box-shadow-light);
     }
@@ -300,7 +303,7 @@ footer ul li a:hover {
     }
 }
 
-/* For laptops >= 992px and up */
+/* For laptops >= 992px */
 @media (min-width: 992px) {
 
     /* Navbar */
@@ -310,13 +313,15 @@ footer ul li a:hover {
 
     header #logo {
         text-wrap: nowrap;
+        margin-left: 3rem;
     }
 
     header .navbar-links {
         width: 100vw;
         background: none;
+        margin-left: 0;
         top: 0;
-        left: 0;
+        left: -3rem;
         box-shadow: none;
     }
 
@@ -330,6 +335,29 @@ footer ul li a:hover {
         margin: 0;
     }
 }
+
+/* For Desktop >= 1200px */
+@media (min-width: 1200px) {
+    #logo {
+        margin-left: 5rem;
+    }
+
+    .navbar-links {
+        margin-left: -5rem;
+    }
+}
+
+/* For Desktop >= 2000px */
+@media (min-width: 2000px) {
+    #logo {
+        margin-left: 6rem;
+    }
+
+    .navbar-links {
+        margin-left: -6rem;
+    }
+}
+
 
 /* Back to top Button */
 main {
