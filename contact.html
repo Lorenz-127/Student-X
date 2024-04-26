@@ -12,14 +12,16 @@
         content="career change, frontend, web developer, new career at 50, new career at 40 , starting a new career at 50, career change 45+" />
     <meta name="author" content="Kal Development - Lorry127" />
     <!-- Title -->
-    <title>title</title>
+    <title>Contact</title>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest" />
-    <!-- Stylesheet -->
+    <!-- Stylesheet Global -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Stylesheet Form -->
+    <link rel="stylesheet" href="assets/css/form.css">
 </head>
 
 <body>
@@ -49,7 +51,62 @@
 
     <!-- Main content -->
     <main>
-        Main Content
+        <section>
+
+        </section>
+        <section>
+            <form target="_blank" action="https://formdump.codeinstitute.net" method="POST">
+                <fieldset>
+                    <legend>
+                        <h3>Your details:</h3>
+                    </legend>
+                    <div>
+                        <div>
+                            <label for="name-field">
+                                <h4>Name:</h4>
+                            </label>
+                            <input id="name-field" type="text" name="full_name" placeholder="Your name" required />
+                        </div>
+                        <div>
+                            <label for="email-field">
+                                <h4>Email:</h4>
+                            </label>
+                            <input id="email-field" type="email" name="email" placeholder="Your email" required />
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <h3>Your age:</h3>
+                    </legend>
+                    <div id="age">
+                        <label for="under-40">under 40</label>
+                        <input type="radio" name="under-40" id="under-40" value="under-40" required />
+                        <label for="over-40">40+</label>
+                        <input type="radio" name="over-40" id="over-40" value="over-40" required />
+                        <label for="over-50">50+</label>
+                        <input type="radio" name="over-50" id="over-50" value="over-50" required />
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="referrer">
+                        <h4>How did you hear about us?</h4>
+                        <select name="referrer" id="referrer">
+                            <option value="">(select one)</option>
+                            <option value="1">Google search</option>
+                            <option value="2">YouTube Channel</option>
+                            <option value="3">Kal`s Student-X Blog</option>
+                            <option value="4">Other</option>
+                        </select>
+                    </label>
+                    <label for="motivation">
+                        <h4>Motivation for a Career-Change:</h4>
+                        <textarea name="motivation" id="motivation" cols="30" rows="3"
+                            placeholder="I like coding late night..."></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
     </main>
 
     <!-- Footer -->

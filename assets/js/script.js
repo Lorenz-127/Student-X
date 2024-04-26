@@ -15,8 +15,8 @@ const updateTime = () => {
     seconds = addTrailingZero(seconds);
 
     $("#hour").html(hours); // Update HTML elements with new time values
-    $("#min").html(minutes); // Corrected variable name
-    $("#sec").html(seconds); // Corrected variable name
+    $("#min").html(minutes);
+    $("#sec").html(seconds);
 };
 
 // Call function on page load
