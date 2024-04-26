@@ -37,6 +37,32 @@
     --ff-text: "Work Sans", Tahoma, sans-serif;
 }
 
+/* Utilities Styles */
+.home-link:hover {
+    color: var(--clr-bg-code);
+    border-bottom: 1px solid var(--clr-bg-code);
+}
+
+.contact-link:hover {
+    color: var(--clr-bg-code);
+    border-bottom: 1px solid var(--clr-bg-code);
+}
+
+.html-link:hover {
+    color: var(--clr-accent-html);
+    border-bottom: 1px solid var(--clr-accent-html);
+}
+
+.css-link:hover {
+    color: var(--clr-accent-css);
+    border-bottom: 1px solid var(--clr-accent-css);
+}
+
+.js-link:hover {
+    color: var(--clr-accent-js);
+    border-bottom: 1px solid var(--clr-accent-js);
+}
+
 /* Global Styles */
 html {
     font-family: var(--ff-text);
@@ -93,7 +119,6 @@ img {
     color: var(--clr-primary-text);
     font-size: 1.5rem;
     font-weight: 700;
-    cursor: pointer;
     padding: 0 0.5rem;
 }
 
@@ -143,7 +168,7 @@ img {
     position: absolute;
     margin-left: 20px;
     left: +100vw;
-    transition: left 0.3s ease-in-out;
+    transition: left 0.2s ease-in-out;
     border-radius: 8px;
     box-shadow: 0 2px 2px 0 var(--clr-box-shadow-light);
 }
@@ -163,15 +188,6 @@ img {
     transition: 0.5s;
 }
 
-.navbar-links ul li a:hover {
-    color: var(--clr-bg-code);
-    border-bottom: 1px solid var(--clr-bg-code);
-}
-
-.navbar-links ul li a.home-link-active {
-    color: var(--clr-bg-code);
-}
-
 .navbar-links ul li a.html-link-active {
     color: var(--clr-accent-html);
 }
@@ -182,6 +198,10 @@ img {
 
 .navbar-links ul li a.js-link-active {
     color: var(--clr-accent-js);
+}
+
+.navbar-links ul li a.home-link-active {
+    color: var(--clr-bg-code);
 }
 
 .navbar-toggle:checked~nav {
@@ -214,6 +234,7 @@ section {
 }
 
 .card-home {
+    display: block;
     text-align: center;
     margin-top: 1rem;
     padding: 0.5rem;
@@ -221,13 +242,19 @@ section {
 
 .card-home img {
     border: transparent;
-    border-radius: 1em;
+    border-radius: 1.5em;
     max-width: 85vw;
     padding: 1rem;
 }
 
+.card-home .clock-container {
+    margin: auto;
+
+}
+
 .card-home P:last-child {
     text-align: left;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
