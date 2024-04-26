@@ -38,6 +38,8 @@
 }
 
 /* Utilities Styles */
+
+/* Links */
 .home-link:hover {
     color: var(--clr-bg-code);
     border-bottom: 1px solid var(--clr-bg-code);
@@ -61,6 +63,17 @@
 .js-link:hover {
     color: var(--clr-accent-js);
     border-bottom: 1px solid var(--clr-accent-js);
+}
+
+/* img */
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 100%;
 }
 
 /* Global Styles */
