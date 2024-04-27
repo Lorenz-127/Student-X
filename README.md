@@ -1,14 +1,40 @@
-# PP 1
+# Student-X
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+## Introduction
 
-## Intro
-
-why and what
 
 ![Responsive Mockup]
 
+
+
+The idea for this website was not the first thing that came to my mind. I thought, after seeing some examples of project websites, that they were all good examples, some with a real connection, others describing a hobby or even fictitious companies. I said to myself, 'OK, you can do that, you can still do that at the age of 50. So I started to think about what I could do. Something unusual like a traditional recipe from my home country or a page about a museum or a person. After doing some research on various topics, I came up with the following.
+
+- Who am I? 
+- Why am I doing this course?
+- Where do I want it to take me?
+- How can I motivate others to do it?
+
+  I am 50 years old, Generation X.  
+  So I am student X.
+  And that's how the idea for this site was born.
+
+The purpose of the website is to provide information about front-end development as a career path and possibly motivate others with the idea of a career change at 45+.
+
+In terms of content, the site provides a brief overview of HTML, CSS, and JavaScript. Overall, the site presents front-end development as a fulfilling and successful career path that combines demand, creativity, learning, collaboration and impact.
+
+
+The live link can be found here - [Stundent-X](https://lorenz-127.github.io/pp1-v3/)
+
+
+
+
+
 ## Features
+
+### Existing Features
+
+For some/all of your features, you may choose to reference the specific project files that implement them.
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Menu Toggle
 
@@ -20,7 +46,7 @@ why and what
   - On devices larger than 992px, the menu button disappears, and the navigation is traditionally displayed in the header.
   - The navigation bar is also slightly indented on very large screens to achieve a better display.
 
-    ![Menu-mobile](assets/images/menu-mobile.png) ![Menu-tablet](assets/images/menu-tablet.png) ![Menu-desktop](assets/images/menu-desktop.png)
+    ![Menu-mobile](assets/feature-img/menu-mobile.png) ![Menu-tablet](assets/feature-img/menu-tablet.png) ![Menu-desktop](assets/feature-img/menu-desktop.png)
 
 ### Scroll To Top Button
 
@@ -31,17 +57,9 @@ why and what
   - Even if the function was not implemented with JavaScript, it is still a suitable analogy to the basic interaction of the three components.
   - In addition I added a scroll-behavior of smooth so that the page can be better perceived.
 
-    ![Scroll to Top Button - passiv](assets/images/sttop-passiv.png) ![Button Activ on Hover](assets/images/sttop-active.png)
+    ![Scroll to Top Button - passiv](assets/feature-img/sttop-passiv.png) ![Button Activ on Hover](assets/feature-img/sttop-active.png)
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-### Existing Features
-
-
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
