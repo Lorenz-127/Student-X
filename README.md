@@ -10,6 +10,29 @@ why and what
 
 ## Features
 
+### Menu Toggle
+
+  - This function is intended to improve the user experience on mobile devices and tablets.
+  - Even though it is a common practice here to use an icon from e.g. Fontawesome, I decided to create the burger buttons with vanilla CSS.
+  - To do this, I gave three span elements the necessary styling in CSS.
+  - On mobile devices, the menu button allows the navigation bar to slide in vertically in a narrow version so as not to cover the entire screen.
+  - On tablets, the navigation bar slides in horizontally to cover as little of the content as possible.
+  - On devices larger than 992px, the menu button disappears, and the navigation is traditionally displayed in the header.
+  - The navigation bar is also slightly indented on very large screens to achieve a better display.
+
+    ![Menu-mobile](assets/images/menu-mobile.png) ![Menu-tablet](assets/images/menu-tablet.png) ![Menu-desktop](assets/images/menu-desktop.png)
+
+### Scroll To Top Button
+
+  - Designed in the Main Colour Theme of HTML, CSS, and JavaScript Brand colours
+  - The Button appears at Scroll Down further than 120vh and is sticky at the bottom of the content.
+  - The Element presents him self in the HTML Colours due to his position in an HTML element.
+  - “On Hover” The Button becomes his action colours for style and function represented by Background-colour of JavaScript and icon-Colour of CSS. 
+  - Even if the function was not implemented with JavaScript, it is still a suitable analogy to the basic interaction of the three components.
+  - In addition I added a scroll-behavior of smooth so that the page can be better perceived.
+
+    ![Scroll to Top Button - passiv](assets/images/sttop-passiv.png) ![Button Activ on Hover](assets/images/sttop-active.png)
+
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
@@ -48,7 +71,6 @@ If this section grows too long, you may want to split it off into a separate fil
 - #Issue 03 - The Empty main Section caused an overflow to the whole site
 - #Issue 04 - The Navbar-links caused an overflow to the right on larger screens.
 - #Issue 05 - The hidden checkbox in the header to control the menu bar via the burger icon causes the menu links to shift to the right when clicking in the header area on larger screens (laptop and up).
-  - 
 
 ### Unfixed Bugs
 
@@ -76,11 +98,16 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content
 
-- slide-in navbar and
-- burger menu
+- Slide-in navbar and
+- Burger menu
 
   The inspiration for these two features came to me during class. On the one hand, I wanted a burger menu, but not a copy of the Love Running tutorial.  I also wanted to avoid a simple solution with JavaScript and implement the function with vanilla CSS. From the lesson on UX design, I then had the idea for the slide-in menu to deviate sufficiently from the original from the walkthrough project. 
   I got the inspiration from https://www.w3schools.com/howto/howto_js_sidenav.asp and this is my attempt to implemented it without JavaScript.
+
+- "Scroll To Top" Button
+
+  This feature caught my attention when looking through example projects, shown by our cohort facilitator, where such a button was missing, in addition I added a scroll smooth so that the page can be better perceived. Again, I found what I was looking for on W3School. There was only one example with JavaScript, but it gave me enough information to implement the element myself in vanilla CSS.
+
 
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial]
@@ -91,6 +118,15 @@ You can break the credits section up into Content and Media, depending on what y
 - The images used for the gallery page were taken from this other open source site
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+
+### Acknowledgements
+
+- My Peers in Code Institute's Slack channels for their feedback and support.
+
+### Honourable mentions
+
+- Dimitris for his moral and technical support [LinkedIn](https://www.linkedin.com/in/dimitrios-thlivitis/) [GitHub](https://github.com/Dimitris112)
+- Vernell for his valuable and patient advice on the right way to solve the problem [LinkedIn](https://www.linkedin.com/in/vernellclark/) [GitHub](https://github.com/VCGithubCode)
 
 ## Other General Project Advice
 
