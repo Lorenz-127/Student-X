@@ -217,6 +217,10 @@ img {
     color: var(--clr-bg-code);
 }
 
+.navbar-links ul li a.contact-link-active {
+    color: var(--clr-bg-code);
+}
+
 .navbar-toggle:checked~nav {
     left: 0;
 }
@@ -393,6 +397,10 @@ main {
 @media (min-width: 992px) {
 
     /* Navbar */
+    .navbar-toggle {
+        display: none;
+    }
+
     .navbar-burger span {
         display: none;
     }
@@ -419,6 +427,10 @@ main {
 
     header .navbar-links ul li {
         margin: 0;
+    }
+
+    .navbar-toggle:checked~nav {
+        left: unset;
     }
 }
 
