@@ -41,6 +41,15 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
 
+### Solved Bugs
+
+- #Issue 01 - The first grid layout didn't work as desired.
+- #Issue 02 - The Elements in the footer have not aligned correctly.
+- #Issue 03 - The Empty main Section caused an overflow to the whole site
+- #Issue 04 - The Navbar-links caused an overflow to the right on larger screens.
+- #Issue 05 - The hidden checkbox in the header to control the menu bar via the burger icon causes the menu links to shift to the right when clicking in the header area on larger screens (laptop and up).
+  - 
+
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
