@@ -489,6 +489,12 @@ main {
         gap: 0.5rem;
     }
 
+    .card-box-wrapper-html {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
     #container-card .card-box {
         max-width: 450px;
         max-height: fit-content;
