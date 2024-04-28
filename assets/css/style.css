@@ -45,7 +45,7 @@
     border-bottom: 1px solid var(--clr-bg-code);
 }
 
-.contact-link:hover {
+.quiz-link:hover {
     color: var(--clr-bg-code);
     border-bottom: 1px solid var(--clr-bg-code);
 }
@@ -220,7 +220,7 @@ ul {
     color: var(--clr-primary-text);
 }
 
-.navbar-links ul li a.contact-link-active {
+.navbar-links ul li a.quiz-link-active {
     color: var(--clr-primary-text);
 }
 
@@ -234,7 +234,7 @@ main {
 }
 
 section {
-    text-align: left;
+    text-align: center;
 }
 
 .card-box {
@@ -411,6 +411,69 @@ main {
     transform: translateY(+4px);
 }
 
+/* Quiz + Form Styles */
+
+.quiz-list ul li {
+    list-style: none;
+    margin-left: 1em;
+    font-weight: 400;
+    padding: 1em 0.5em;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display: block;
+    margin: 10px 0;
+}
+
+.quiz-list ul li .radio-green input[type="radio"]~:checked+label {
+    color: green;
+}
+
+.quiz-list ul li input[type="radio"]~.radio-red:checked+label {
+    color: red;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 30px;
+    width: 90%;
+    padding: 1em;
+    margin: 1em auto;
+}
+
+textarea,
+input,
+select {
+    background-color: var(--clr-primary-code);
+    color: var(--clr-primary-text);
+}
+
+
+input[type="submit"] {
+    margin: 1.5rem 1rem 0 1rem;
+    padding: 0.75rem;
+    background-color: var(--clr-primary-code);
+    color: var(--clr-primary-text);
+    font-family: var(--ff-title);
+    font-weight: 800;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    background-color: transparent;
+    color: var(--clr-utilities-3);
+    border: 1px solid var(--clr-utilities-3);
+}
+
 /* Responsive Design*/
 
 /*  For tablets  >= 768px */
@@ -532,6 +595,9 @@ main {
         max-width: 450px;
         max-height: fit-content;
     }
+
+    /* Quiz */
+
 }
 
 /* For Desktop >= 1200px */
