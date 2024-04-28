@@ -251,6 +251,7 @@ section {
 
 .card {
     padding: 0.5rem;
+
 }
 
 .card-home {
@@ -289,6 +290,21 @@ section {
 
 .card-box:hover {
     transform: translateY(-4px);
+}
+
+.card-box .card ul {
+    list-style: initial;
+    list-style-position: inside;
+    font-weight: bold;
+
+}
+
+.card-box .card ul ul {
+    list-style-position: inside;
+    list-style: circle;
+    margin-left: 2em;
+    font-weight: 400;
+    padding: 1em 0.5em;
 }
 
 /* Footer */
@@ -477,7 +493,6 @@ main {
         max-width: 450px;
         max-height: fit-content;
     }
-
 }
 
 /* For Desktop >= 1200px */
