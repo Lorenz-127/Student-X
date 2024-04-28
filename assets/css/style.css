@@ -378,6 +378,39 @@ main {
     transform: translateY(-4px);
 }
 
+/* Go to Bottom */
+.go-to-bottom-container {
+    position: absolute;
+    top: 80vh;
+    bottom: 2rem;
+    right: 1rem;
+    pointer-events: none;
+}
+
+.go-to-bottom-icon {
+    display: block;
+    position: sticky;
+    top: 80vh;
+    pointer-events: all;
+    text-align: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-top: 0.1rem;
+    border-radius: 8px;
+    color: var(--clr-accent-html);
+    transition: transform 80ms ease-in;
+}
+
+.go-to-bottom-icon a {
+    color: var(--clr-accent-html);
+}
+
+.go-to-bottom-icon:hover {
+    background-color: var(--clr-accent-js);
+    color: var(--clr-accent-css);
+    transform: translateY(+4px);
+}
+
 /* Responsive Design*/
 
 /*  For tablets  >= 768px */
@@ -524,6 +557,10 @@ main {
     }
 
     .back-to-top-container {
+        top: 120vh;
+    }
+
+    .go-to-bottom-container {
         top: 80vh;
     }
 }
@@ -536,5 +573,13 @@ main {
 
     .navbar-links {
         margin-left: -6rem;
+    }
+
+    .back-to-top-container {
+        top: 80vh;
+    }
+
+    .go-to-bottom-container {
+        top: 90vh;
     }
 }
