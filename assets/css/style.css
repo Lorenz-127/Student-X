@@ -37,7 +37,7 @@
     --ff-text: "Work Sans", Tahoma, sans-serif;
 }
 
-/* Utilities Styles */
+/* MARK: Utilities Styles */
 
 /* Links */
 .home-link:hover {
@@ -82,7 +82,7 @@ img {
     height: auto;
 }
 
-/* Global Styles */
+/* MARK: Global Styles */
 html {
     font-family: var(--ff-text);
     font-size: 16pt;
@@ -138,7 +138,7 @@ ul {
     padding: 0 0.5rem;
 }
 
-/* Navbar with burger toggle and slide effect*/
+/* MARK: Navbar with burger toggle and slide effect*/
 .navbar-toggle {
     display: none;
 }
@@ -183,7 +183,7 @@ ul {
     padding: 1rem 0;
     position: absolute;
     margin-left: 20px;
-    left: +100vw;
+    left: -100vw;
     transition: left 0.2s ease-in-out;
     border-radius: 8px;
     box-shadow: 0 2px 2px 0 var(--clr-box-shadow-light);
@@ -228,7 +228,7 @@ ul {
     left: 0;
 }
 
-/* Main Content */
+/* MARK: Main Content */
 main {
     background-color: var(--clr-bg-code);
 }
@@ -312,7 +312,7 @@ section {
     width: 100%;
 }
 
-/* Footer */
+/* MARK: Footer */
 footer {
     background-color: var(--clr-primary-code);
     box-shadow: 0 -2px 2px 0 var(--clr-box-shadow-light);
@@ -346,7 +346,7 @@ footer ul li a:hover {
     color: var(--clr-accent-html);
 }
 
-/* Back to top Button */
+/* MARK: Back to top Button */
 main {
     position: relative;
 }
@@ -416,7 +416,7 @@ main {
     transform: translateY(+4px);
 }
 
-/* Quiz + Form Styles */
+/* MARK: Quiz + Form Styles */
 
 .quiz-list ul li {
     list-style: none;
@@ -485,7 +485,7 @@ input[type="submit"]:hover {
 }
 
 
-/* Responsive Design*/
+/* MARK: Responsive Design*/
 
 /*  For tablets  >= 768px */
 @media (min-width: 768px) {
@@ -520,7 +520,7 @@ input[type="submit"]:hover {
 
 }
 
-/* For laptops >= 992px */
+/* MARK: For laptops >= 992px */
 @media (min-width: 992px) {
 
     /* Navbar */
@@ -609,7 +609,7 @@ input[type="submit"]:hover {
 
 }
 
-/* For Desktop >= 1200px */
+/* MARK: For Desktop >= 1200px */
 @media (min-width: 1200px) {
 
     #logo {
