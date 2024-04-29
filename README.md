@@ -48,7 +48,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
     ![Menu-mobile](assets/feature-img/menu-mobile.png) ![Menu-tablet](assets/feature-img/menu-tablet.png) ![Menu-desktop](assets/feature-img/menu-desktop.png)
 
-### Scroll To Top Button
+### Scroll To Top and Bottom - Button
 
   - Designed in the Main Colour Theme of HTML, CSS, and JavaScript Brand colours
   - The Button appears at Scroll Down further than 120vh and is sticky at the bottom of the content.
@@ -78,21 +78,27 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator]
+  -  [W3C validator]
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]
+  -  [(Jigsaw) validator]
 
 ### Solved Bugs
 
 - #Issue 01 - The first grid layout didn't work as desired.
+  - Solution: - Change the design to Flexbox.
 - #Issue 02 - The Elements in the footer have not aligned correctly.
-- #Issue 03 - The Empty main Section caused an overflow to the whole site
-- #Issue 04 - The Navbar-links caused an overflow to the right on larger screens.
-- #Issue 05 - The hidden checkbox in the header to control the menu bar via the burger icon causes the menu links to shift to the right when clicking in the header area on larger screens (laptop and up).
+  - Solution: - Add the display: felx property to the correct parent element.
+- #Issue 04 - The hidden checkbox in the header to control the menu bar via the burger icon causes the menu links to shift to the right when clicking in the header area on larger screens (laptop and up).
+  - Solution: - Add class container-hader to prevent elements 'floating' around
+- #Issue 06 - Accessibility evaluation shows that the custom burger menu has a missing label
+  - Solution: - Add an Aria-Label to the custom burger menu.
 
 ### Unfixed Bugs
 
-- #Issue 06 - The Label color change for the correct / wrong answers on the Quiz form is not working.
+
+- #Issue 03 - The Navbar-links caused an overflow to the right.
+- #Issue 05 - The Label color change for the correct / wrong answers on the Quiz form is not working.
+- #Issues 07 - The Buttons To Top and Bottom are misaligned on responsive devices
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
@@ -103,9 +109,9 @@ The website was deployed using GitHub Pages by following these steps:
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
    1. In the GitHub repository, navigate to the Settings tab
    2. From the source section drop-down menu, select the Master Branch
-   3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+   3. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - [Stundent-X](https://lorenz-127.github.io/pp1-v3/)
+The live link can be found here - [Student-X](https://lorenz-127.github.io/Student-X/)
 
 ## Credits
 
@@ -146,7 +152,7 @@ Congratulations on completing your Readme, you have made another big stride in t
 ### Honourable mentions
 
 - Dimitris for his moral and technical support [LinkedIn](https://www.linkedin.com/in/dimitrios-thlivitis/) [GitHub](https://github.com/Dimitris112)
-- Vernell for his valuable and patient advice on the right way to solve the problem [LinkedIn](https://www.linkedin.com/in/vernellclark/) [GitHub](https://github.com/VCGithubCode)
+- Vernell for his valuable and patient advice and tips to find the right solution. [LinkedIn](https://www.linkedin.com/in/vernellclark/) [GitHub](https://github.com/VCGithubCode)
 
 ## Other General Project Advice
 
