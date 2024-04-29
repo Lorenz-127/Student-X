@@ -111,14 +111,7 @@ main {
 
 a {
     text-decoration: none;
-    color: var(--clr-primary-code-text);
 }
-
-a:visited {
-    text-decoration: none;
-    color: var(--clr-primary-code-text);
-}
-
 
 ul {
     list-style: none;
@@ -484,6 +477,11 @@ input[type="submit"]:hover {
     background-color: transparent;
     color: var(--clr-utilities-3);
     border: 1px solid var(--clr-utilities-3);
+}
+
+.card a:visited {
+    text-decoration: none;
+    color: var(--clr-primary-code-text);
 }
 
 
