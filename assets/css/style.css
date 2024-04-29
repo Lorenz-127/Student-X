@@ -114,6 +114,12 @@ a {
     color: var(--clr-primary-code-text);
 }
 
+a:visited {
+    text-decoration: none;
+    color: var(--clr-primary-code-text);
+}
+
+
 ul {
     list-style: none;
 }
