@@ -94,13 +94,13 @@ If this section grows too long, you may want to split it off into a separate fil
   - Solution: - Add class container-hader to prevent elements 'floating' around
 - #Issue 06 - Accessibility evaluation shows that the custom burger menu has a missing label
   - Solution: - Add an Aria-Label to the custom burger menu.
+ 
 
 ### Unfixed Bugs
 
-
 - #Issue 05 - The Label color change for the correct / wrong answers on the Quiz form is not working.
-- #Issues 07 - The Buttons To Top and Bottom are misaligned on small responsive devices
-
+- #Issue 07 - The Buttons To Top and Bottom are misaligned on small responsive devices.
+- #Issue 08 - The confirmation page shows the wron style and scroll button alingment.
 
 ## Deployment
 
