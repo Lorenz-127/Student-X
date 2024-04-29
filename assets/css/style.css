@@ -41,13 +41,13 @@
 
 /* Links */
 .home-link:hover {
-    color: var(--clr-bg-code);
-    border-bottom: 1px solid var(--clr-bg-code);
+    color: var(--clr-primary-text);
+    border-bottom: 1px solid var(--clr-primary-text);
 }
 
 .quiz-link:hover {
-    color: var(--clr-bg-code);
-    border-bottom: 1px solid var(--clr-bg-code);
+    color: var(--clr-primary-text);
+    border-bottom: 1px solid var(--clr-primary-text);
 }
 
 .html-link:hover {
@@ -606,8 +606,6 @@ input[type="submit"]:hover {
         max-width: 450px;
         max-height: fit-content;
     }
-
-    /* Quiz */
 
 }
 
