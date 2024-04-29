@@ -346,78 +346,63 @@ footer ul li a:hover {
     color: var(--clr-accent-html);
 }
 
-/* MARK: Back to top Button */
+/* MARK: Scroll Buttons */
 main {
     position: relative;
 }
 
-.back-to-top-container {
-    position: absolute;
-    top: 120vh;
-    bottom: 2rem;
-    right: 1rem;
-    pointer-events: none;
+.container-scroll-buttons {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    bottom: 20dvh;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    gap: 1rem;
+    z-index: 80;
 }
 
-.back-to-top-icon {
+.back-to-top-container,
+.go-to-bottom-container {
+    padding-top: 1rem;
+}
+
+.back-to-top-icon,
+.go-to-bottom-icon {
     display: block;
-    position: sticky;
-    top: 85vh;
     pointer-events: all;
     text-align: center;
-    width: 1.5rem;
-    height: 1.5rem;
     padding-top: 0.1rem;
     border-radius: 8px;
+    width: 1.5rem;
+    height: 1.5rem;
     color: var(--clr-accent-html);
-    transition: transform 80ms ease-in;
+    transition: transform 200ms ease-in;
 }
 
 .back-to-top-icon a {
     color: var(--clr-accent-html);
 }
 
-.back-to-top-icon:hover {
+.go-to-bottom-icon a i {
+    color: var(--clr-accent-html);
+
+}
+
+.go-to-bottom-icon:hover {
     background-color: var(--clr-accent-js);
     color: var(--clr-accent-css);
     transform: translateY(-4px);
 }
 
-/* Go to Bottom */
-.go-to-bottom-container {
-    position: absolute;
-    top: 80vh;
-    bottom: 2rem;
-    right: 1rem;
-    pointer-events: none;
-}
-
-.go-to-bottom-icon {
-    display: block;
-    position: sticky;
-    top: 80vh;
-    pointer-events: all;
-    text-align: center;
-    width: 1.5rem;
-    height: 1.5rem;
-    padding-top: 0.1rem;
-    border-radius: 8px;
-    color: var(--clr-accent-html);
-    transition: transform 80ms ease-in;
-}
-
-.go-to-bottom-icon a {
-    color: var(--clr-accent-html);
-}
-
-.go-to-bottom-icon:hover {
+.back-to-top-icon:hover {
     background-color: var(--clr-accent-js);
     color: var(--clr-accent-css);
     transform: translateY(+4px);
 }
 
 /* MARK: Quiz + Form Styles */
-
 .quiz-list ul li {
     list-style: none;
     margin-left: 1em;
@@ -470,7 +455,6 @@ input[type="submit"] {
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
-
 }
 
 input[type="submit"]:hover {
@@ -630,14 +614,6 @@ input[type="submit"]:hover {
         grid-template-columns: repeat(3, 1fr);
         gap: 0.5rem;
     }
-
-    .back-to-top-container {
-        top: 120vh;
-    }
-
-    .go-to-bottom-container {
-        top: 80vh;
-    }
 }
 
 /* For Desktop >= 2000px */
@@ -648,13 +624,5 @@ input[type="submit"]:hover {
 
     .navbar-links {
         margin-left: -6rem;
-    }
-
-    .back-to-top-container {
-        top: 80vh;
-    }
-
-    .go-to-bottom-container {
-        top: 90vh;
     }
 }
