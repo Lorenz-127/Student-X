@@ -111,6 +111,7 @@ main {
 
 a {
     text-decoration: none;
+    color: var(--clr-primary-code-text);
 }
 
 ul {
@@ -307,6 +308,11 @@ section {
     padding: 1em 0.5em;
 }
 
+.card-youtube {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
 /* Footer */
 footer {
     background-color: var(--clr-primary-code);
@@ -473,6 +479,7 @@ input[type="submit"]:hover {
     color: var(--clr-utilities-3);
     border: 1px solid var(--clr-utilities-3);
 }
+
 
 /* Responsive Design*/
 
