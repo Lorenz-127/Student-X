@@ -88,6 +88,8 @@ If this section grows too long, you may want to split it off into a separate fil
   - Solution: - Change the design to Flexbox.
 - #Issue 02 - The Elements in the footer have not aligned correctly.
   - Solution: - Add the display: felx property to the correct parent element.
+- #Issue 03 - The Navbar-links caused an overflow to the right on mobile screen.
+  - Solution - The vw property was set wrong for the navbar-links.
 - #Issue 04 - The hidden checkbox in the header to control the menu bar via the burger icon causes the menu links to shift to the right when clicking in the header area on larger screens (laptop and up).
   - Solution: - Add class container-hader to prevent elements 'floating' around
 - #Issue 06 - Accessibility evaluation shows that the custom burger menu has a missing label
@@ -96,11 +98,9 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Unfixed Bugs
 
 
-- #Issue 03 - The Navbar-links caused an overflow to the right.
 - #Issue 05 - The Label color change for the correct / wrong answers on the Quiz form is not working.
-- #Issues 07 - The Buttons To Top and Bottom are misaligned on responsive devices
+- #Issues 07 - The Buttons To Top and Bottom are misaligned on small responsive devices
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
 
