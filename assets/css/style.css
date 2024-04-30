@@ -348,6 +348,7 @@ main {
 }
 
 .container-scroll-buttons {
+    display: none;
     position: sticky;
     inline-size: 2rem;
     bottom: 20dvh;
@@ -493,6 +494,11 @@ input[type="submit"]:hover {
     header .navbar-links ul li {
         margin: 0.5rem 0;
         padding: 0 1rem;
+    }
+
+    /* Scroll Buttons */
+    .container-scroll-buttons {
+        display: block;
     }
 
 
