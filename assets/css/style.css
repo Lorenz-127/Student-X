@@ -257,6 +257,7 @@ main {
     padding: 0.5rem;
 }
 
+.card-img img,
 .card-home img {
     border: transparent;
     border-radius: 1.5em;
@@ -397,6 +398,12 @@ main {
 }
 
 /* MARK: Quiz + Form Styles */
+fieldset,
+legend {
+    border: none;
+}
+
+
 .quiz-list ul li {
     list-style: none;
     margin-left: 1em;
@@ -410,11 +417,11 @@ input[type="radio"] {
     margin: 10px 0;
 }
 
-.quiz-list ul li .radio-green input[type="radio"]~:checked+label {
+.radio-green:checked~label {
     color: green;
 }
 
-.quiz-list ul li input[type="radio"]~.radio-red:checked+label {
+.radio-red:checked~label {
     color: red;
 }
 

@@ -32,9 +32,9 @@
             <input type="checkbox" class="navbar-toggle" id="navbar-toggle" name="navbar-toggle">
             <label for="navbar-toggle" class="navbar-toggle-label" aria-label="burger Menu">
                 <div class="navbar-burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <span>&nbsp</span>
+                    <span>&nbsp</span>
+                    <span>&nbsp</span>
                 </div>
             </label>
             <nav class="navbar-links">
@@ -43,7 +43,7 @@
                     <li><a href="html-basics.html" class="html-link">HTML</a></li>
                     <li><a href="css-basics.html" class="css-link">CSS</a></li>
                     <li><a href="js-basics.html" class="js-link">JavaScript</a></li>
-                    <li><a href="quiz.html" class="quiz-link quiz-link-active">Quiz</a></li>
+                    <li><a href="#top" class="quiz-link quiz-link-active">Quiz</a></li>
                 </ul>
             </nav>
         </div>
@@ -71,90 +71,108 @@
                 <div class="card-box">
                     <div class="card quiz-list">
                         <h3>HTML Stands for...</h3>
-                        <ul>
-                            <li>
-                                <div>
-                                    <label for="question-2-answers-A">Hyper Text Management Label</label>
-                                    <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A"
-                                        class="radio-red" required />
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <label for="question-2-answers-B">Hypertext Markup Language</label>
-                                    <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B"
-                                        class="radio-green" required />
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <label for="question-2-answers-C">Hyperlink Text Markdown Language</label>
-                                    <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C"
-                                        class="radio-red" required />
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <label for="question-2-answers-D">Humorous Testing Maintenance Language</label>
-                                    <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D"
-                                        class="radio-red" required />
-                                </div>
-                            </li>
-                        </ul>
+                        <fieldset>
+                            <legend></legend>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-A"
+                                            value="A" class="radio-red" required />
+                                        <label for="question-2-answers-A" class="radio-red-label">Hyper Text Management
+                                            Label</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-B"
+                                            value="B" class="radio-green" required />
+                                        <label for="question-2-answers-B" class="radio-green-label">Hypertext Markup
+                                            Language</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-C"
+                                            value="C" class="radio-red" required />
+                                        <label for="question-2-answers-C" class="radio-red-label">Hyperlink Text
+                                            Markdown Language</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-D"
+                                            value="D" class="radio-red" required />
+                                        <label for="question-2-answers-D" class="radio-red-label">Humorous Testing
+                                            Maintenance Language</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </fieldset>
                     </div>
                 </div>
                 <div class="card-box">
                     <div class="card quiz-list">
                         <h3>CSS Stands for...</h3>
-                        <ul>
-                            <li>
-                                <label for="question-1-answers-A">Carcass Style Sheet </label>
-                                <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A"
-                                    class="radio-red" required />
-                            </li>
-                            <li>
-                                <label for="question-1-answers-B">Cascading Style Sheets</label>
-                                <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B"
-                                    class="radio-green" required />
-                            </li>
-                            <li>
-                                <label for="question-1-answers-C">Crazy Style Seeds</label>
-                                <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C"
-                                    class="radio-red" required />
-                            </li>
-                            <li>
-                                <label for="question-1-answers-D">None of the above</label>
-                                <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D"
-                                    class="radio-red" required />
-                            </li>
-                        </ul>
+                        <fieldset>
+                            <legend></legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A"
+                                        class="radio-red" required />
+                                    <label for="question-1-answers-A" class="radio-red-label">Carcass Style
+                                        Sheet</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B"
+                                        class="radio-green" required />
+                                    <label for="question-1-answers-B" class="radio-green-label">Cascading Style
+                                        Sheets</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C"
+                                        class="radio-red" required />
+                                    <label for="question-1-answers-C" class="radio-red-label">Crazy Style Seeds</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D"
+                                        class="radio-red" required />
+                                    <label for="question-1-answers-D" class="radio-red-label">None of the above</label>
+                                </li>
+                            </ul>
+                        </fieldset>
                     </div>
                 </div>
                 <div class="card-box">
                     <div class="card quiz-list">
                         <h3>What you CANNOT use JavaScript for...</h3>
-                        <ul>
-                            <li>
-                                <label for="question-3-answers-A">Web development</label>
-                                <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A"
-                                    class="radio-red" required />
-                            </li>
-                            <li>
-                                <label for="question-3-answers-B">Washing the dishes (so far)</label>
-                                <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B"
-                                    class="radio-green" required />
-                            </li>
-                            <li>
-                                <label for="question-3-answers-C">Mobile app development</label>
-                                <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C"
-                                    class="radio-red" required />
-                            </li>
-                            <li>
-                                <label for="question-3-answers-D">Server-side development</label>
-                                <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D"
-                                    class="radio-red" required />
-                            </li>
-                        </ul>
+                        <fieldset>
+                            <legend></legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A"
+                                        class="radio-red" required />
+                                    <label for="question-3-answers-A" class="radio-red-label">Web development</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B"
+                                        class="radio-green" required />
+                                    <label for="question-3-answers-B" class="radio-green-label">Washing the dishes (so
+                                        far)</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C"
+                                        class="radio-red" required />
+                                    <label for="question-3-answers-C" class="radio-red-label">Mobile app
+                                        development</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D"
+                                        class="radio-red" required />
+                                    <label for="question-3-answers-D" class="radio-red-label">Server-side
+                                        development</label>
+                                </li>
+                            </ul>
+                        </fieldset>
                     </div>
                 </div>
                 <div class="card-box">
@@ -172,10 +190,10 @@
                 <form action="confirmation.html">
                     <div class="card-box form-box">
                         <div class="card form-card">
-                            <label for="name">Name</label>
+                            <label for="name-field">Name</label>
                             <input type="text" name="name" id="name-field" class="name-field-text" required>
 
-                            <label for="email-address">Email Address</label>
+                            <label for="email-field">Email Address</label>
                             <input type="email" name="email" id="email-field" class="email-field-text" required>
 
                             <label for="age" class="age-label">Age</label>
