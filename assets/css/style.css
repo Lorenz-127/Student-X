@@ -233,10 +233,6 @@ main {
     background-color: var(--clr-bg-code);
 }
 
-section {
-    text-align: center;
-}
-
 .card-box {
     max-width: 90vw;
     margin-top: 2rem;
@@ -353,14 +349,11 @@ main {
 
 .container-scroll-buttons {
     position: sticky;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    inline-size: 2rem;
     bottom: 20dvh;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
+    left: 97dvw;
     gap: 1rem;
-    z-index: 80;
+
 }
 
 .back-to-top-container,
@@ -393,13 +386,13 @@ main {
 .go-to-bottom-icon:hover {
     background-color: var(--clr-accent-js);
     color: var(--clr-accent-css);
-    transform: translateY(-4px);
+    transform: translateY(+4px);
 }
 
 .back-to-top-icon:hover {
     background-color: var(--clr-accent-js);
     color: var(--clr-accent-css);
-    transform: translateY(+4px);
+    transform: translateY(-4px);
 }
 
 /* MARK: Quiz + Form Styles */
@@ -434,7 +427,7 @@ input[type="email"] {
     height: 30px;
     width: 90%;
     padding: 1em;
-    margin: 1em auto;
+    margin: 1em 1em;
 }
 
 textarea,
@@ -502,6 +495,8 @@ input[type="submit"]:hover {
         padding: 0 1rem;
     }
 
+
+
 }
 
 /* MARK: For laptops >= 992px */
@@ -545,10 +540,6 @@ input[type="submit"]:hover {
     }
 
     /* Main Content */
-    section {
-        text-align: unset;
-    }
-
     #container-home {
         display: flex;
         justify-content: center;
@@ -571,13 +562,16 @@ input[type="submit"]:hover {
 
     #container-card {
         display: flex;
+        flex-direction: column;
         justify-content: center;
+
     }
 
     .card-box-wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 0.5rem;
+
     }
 
     .card-box-wrapper-html {
