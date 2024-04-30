@@ -252,7 +252,7 @@ main {
 
 .card-home {
     display: block;
-    text-align: center;
+    text-align: left;
     margin-top: 1rem;
     padding: 0.5rem;
 }
@@ -265,7 +265,7 @@ main {
 }
 
 .card-home .clock-container {
-    margin: auto;
+    margin: 1rem auto;
 
 }
 
@@ -276,7 +276,7 @@ main {
 }
 
 .card h3 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 0.5em;
 }
 
@@ -500,9 +500,6 @@ input[type="submit"]:hover {
     .container-scroll-buttons {
         display: block;
     }
-
-
-
 }
 
 /* MARK: For laptops >= 992px */
@@ -568,7 +565,6 @@ input[type="submit"]:hover {
 
     #container-card {
         display: flex;
-        flex-direction: column;
         justify-content: center;
 
     }
