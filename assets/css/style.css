@@ -248,14 +248,18 @@ main {
 
 .card {
     padding: 0.5rem;
-
 }
 
 .card-home {
     display: block;
-    text-align: left;
+    text-align: center;
     margin-top: 1rem;
     padding: 0.5rem;
+}
+
+.card-home p,
+.card p {
+    text-align: left;
 }
 
 .card-img img,
@@ -277,8 +281,9 @@ main {
     margin-bottom: 2rem;
 }
 
+
 .card h3 {
-    text-align: left;
+    text-align: center;
     margin-bottom: 0.5em;
 }
 
