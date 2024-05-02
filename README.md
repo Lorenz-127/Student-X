@@ -154,7 +154,7 @@ The live link can be found here - [Student-X](https://lorenz-127.github.io/Stude
 ### Content
 
 #### Slide-in navbar and Burger menu
-  -The inspiration for these two features came to me during class. On the one hand, I wanted a burger menu, but not a copy of the Love Running tutorial.  I also wanted to avoid a simple solution with JavaScript and implement the function with vanilla CSS. From the lesson on UX design, I then had the idea for the slide-in menu to deviate sufficiently from the original from the walkthrough project. 
+- The inspiration for these two features came to me during class. On the one hand, I wanted a burger menu, but not a copy of the Love Running   tutorial. I also wanted to avoid a simple solution with JavaScript and implement the function with vanilla CSS. From the lesson on UX design, I then had the idea for the slide-in menu to deviate sufficiently from the original from the walkthrough project. 
     I got the inspiration from [W3School](https://www.w3schools.com/howto/howto_js_sidenav.asp) and this is my attempt to implemented it without JavaScript.
 
 #### "Scroll To Top" Button
@@ -162,7 +162,8 @@ The live link can be found here - [Student-X](https://lorenz-127.github.io/Stude
 
 #### Text Content
   - The text for the articles relating to career change is paraphrased by me, with inspiration from the site [claremontconsulting.com](https://www.claremontconsulting.com/why-become-a-front-end-developer#:~:text=Front-end%20developers%20have%20a,digital%20products%20is%20incredibly%20rewarding)
-  - In addition, there is some content from the Code Institute website. These texts were also paraphrased by me and adapted to the needs of the website.
+  - In addition, there is some content from the Code Institute [Career Support](https://codeinstitute.net/de/career-hub/?_gl=1*4muh7x*_up*MQ..*_ga*MTg0OTgxNjY4Mi4xNzE0NjY4Njc1*_ga_QFGPY7G0M3*MTcxNDY2ODY3NC4xLjAuMTcxNDY2ODY3NC4wLjAuNzQzNDk5MTc1) Website. These texts were also paraphrased by me and adapted to the needs of the website.
+
 
 ### Acknowledgements
 
