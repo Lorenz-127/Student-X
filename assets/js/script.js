@@ -1,3 +1,5 @@
+// Parts of this code I was inspired by the GreatStack's YouTube tutorial mentioned in the readme
+
 // addTrailingZero function
 const addTrailingZero = (num) => {
     return num < 10 ? "0" + num : num;
