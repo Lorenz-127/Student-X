@@ -7,11 +7,6 @@
     box-sizing: border-box;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-::-webkit-scrollbar {
-    display: none;
-}
-
 :root {
     /* Main colors */
     --clr-bg: #5e6c5f;
@@ -41,6 +36,8 @@
 /* MARK: Utilities Styles */
 
 /* Links */
+
+/* Hoover styles */
 .home-link:hover,
 .quiz-link:hover {
     color: var(--clr-primary-text);
@@ -147,6 +144,7 @@ ul {
     float: right;
 }
 
+/* Navbar slide in */
 .navbar-burger span {
     height: 3px;
     width: 30px;
@@ -158,6 +156,7 @@ ul {
         opacity 0.3s ease-in-out;
 }
 
+/* burger bars style */
 .navbar-toggle:checked~.navbar-burger span:first-child {
     transform: rotate(45deg);
     top: 8px;
@@ -174,6 +173,7 @@ ul {
     opacity: 0;
 }
 
+/* navbar links */
 .navbar-links {
     background: var(--clr-primary-code);
     width: 50vw;
@@ -202,6 +202,7 @@ ul {
     transition: 0.5s;
 }
 
+/* navbar styles for colored Text */
 .navbar-links ul li a.html-link-active {
     color: var(--clr-accent-html);
 }
@@ -228,6 +229,7 @@ main {
     background-color: var(--clr-bg-code);
 }
 
+/* Card and card-box styles */
 .card-box {
     max-width: 90vw;
     margin-top: 2rem;
@@ -376,6 +378,8 @@ main {
     transition: transform 200ms ease-in;
 }
 
+/* Scroll button hover color styles */
+
 .back-to-top-icon a,
 .go-to-bottom-icon a i {
     color: var(--clr-accent-html);
@@ -457,6 +461,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+/* quiz styles for answer color */
 input[type="submit"]:hover {
     background-color: transparent;
     color: var(--clr-utilities-3);
@@ -491,6 +496,7 @@ input[type="submit"]:hover {
         box-shadow: 0 2px 2px 0 var(--clr-box-shadow-light);
     }
 
+    /* slide in change from vertical to horizontal */
     header .navbar-links ul {
         display: flex;
         flex-direction: row;
@@ -525,6 +531,7 @@ input[type="submit"]:hover {
         margin-left: 3rem;
     }
 
+    /* navbar horizontal adjustment for larger screens */
     header .navbar-links {
         width: 70vw;
         background: none;
@@ -575,6 +582,7 @@ input[type="submit"]:hover {
 
     }
 
+    /* layout change from 1 to 2 columns for large screens*/
     .card-box-wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -611,6 +619,7 @@ input[type="submit"]:hover {
         max-height: fit-content;
     }
 
+    /* layout change from 2 columns to 3 columns for even larger screens*/
     .card-box-wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
