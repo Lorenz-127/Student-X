@@ -19,7 +19,7 @@ The purpose of the website is to provide information about front-end development
 
 In terms of content, the site provides a brief overview of HTML, CSS, and JavaScript. Overall, the site presents front-end development as a fulfilling and successful career path that combines demand, creativity, learning, collaboration and impact.
 
-The live link can be found here - [Stundent-X](https://lorenz-127.github.io/pp1-v3/)
+The live link can be found here - [\[Stundent-X\]](https://lorenz-127.github.io/Student-X/)
 
 ## Features
 
