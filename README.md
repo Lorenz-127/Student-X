@@ -63,7 +63,24 @@ In this section, you should go over the different parts of your project, and des
 
 ### Features Left to Implement
 
-- Another feature idea
+#### Theme toggle
+  - The idea is that the user can switch between dark and light mode.
+    In the associated script In addition, it can be specified that the selected theme 
+    is saved to local-storage so that the user does not have to switch again the next time visit.
+
+#### Language toggle
+  - It is planned to make the site available in other languages ​​as well. For example, in German.
+    To point out that the Agentur für Arbeit supports such qualifications with an Bildungsgutschein.
+
+#### Html / CSS / JS pages
+  - The idea is to integrate a mini code editor into the respective page, so that the user can 
+    practice directly in order to increase the motivation to do a retraining, and thus show that they can also do it.
+
+#### Quiz form
+  - The quiz should send an evaluation of the answers to the server and produce a result.
+    This is displayed on the confirmation page, with a motivational text that confirms 
+    that you are suitable for retraining as a software developer.
+
 
 ## Testing
 
@@ -77,9 +94,17 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Validator Testing
 
-- HTML
+
+#### Wave
+- redundant links in navbar
+  - solution - add different alt description to the effected links
+
+
+#### Lighthouse
+
+#### HTML
   -  [W3C validator]
-- CSS
+#### CSS
   -  [(Jigsaw) validator]
 
 ### Solved Bugs
@@ -92,6 +117,8 @@ If this section grows too long, you may want to split it off into a separate fil
   - Solution - The vw property was set wrong for the navbar-links.
 - #Issue 04 - The hidden checkbox in the header to control the menu bar via the burger icon causes the menu links to shift to the right when clicking in the header area on larger screens (laptop and up).
   - Solution: - Add class container-hader to prevent elements 'floating' around
+- #Issue 05 - The Label color change for the correct / wrong answers on the Quiz form is not working.
+  - Solution - Add the correct sibling selector in css and add the correct class to html element and restructure label/input.
 - #Issue 06 - Accessibility evaluation shows that the custom burger menu has a missing label
   - Solution: - Add an Aria-Label to the custom burger menu.
 - #Issue 07 - The Buttons To Top and Bottom are misaligned on small responsive devices.
@@ -102,7 +129,6 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-- #Issue 05 - The Label color change for the correct / wrong answers on the Quiz form is not working.
 
 ## Deployment
 
