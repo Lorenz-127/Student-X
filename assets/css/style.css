@@ -27,8 +27,9 @@
     --clr-accent-js: #f7df1e;
 
     /* Utilities color */
-    --clr-utilities-2: #df2020;
+    --clr-utilities-2: #ff0000;
     --clr-utilities-3: #e9e9eb;
+    --clr-utilities-4: #008000;
     --clr-box-shadow-dark: #00000080;
     --clr-box-shadow-light: #e9e9eb80;
 
@@ -40,11 +41,7 @@
 /* MARK: Utilities Styles */
 
 /* Links */
-.home-link:hover {
-    color: var(--clr-primary-text);
-    border-bottom: 1px solid var(--clr-primary-text);
-}
-
+.home-link:hover,
 .quiz-link:hover {
     color: var(--clr-primary-text);
     border-bottom: 1px solid var(--clr-primary-text);
@@ -217,10 +214,7 @@ ul {
     color: var(--clr-accent-js);
 }
 
-.navbar-links ul li a.home-link-active {
-    color: var(--clr-primary-text);
-}
-
+.navbar-links ul li a.home-link-active,
 .navbar-links ul li a.quiz-link-active {
     color: var(--clr-primary-text);
 }
@@ -382,13 +376,9 @@ main {
     transition: transform 200ms ease-in;
 }
 
-.back-to-top-icon a {
-    color: var(--clr-accent-html);
-}
-
+.back-to-top-icon a,
 .go-to-bottom-icon a i {
     color: var(--clr-accent-html);
-
 }
 
 .go-to-bottom-icon:hover {
@@ -421,14 +411,17 @@ legend {
 input[type="radio"] {
     display: block;
     margin: 10px 0;
+    cursor: pointer;
 }
 
 .radio-green:checked~label {
-    color: green;
+    color: var(--clr-utilities-4);
+    cursor: pointer;
 }
 
 .radio-red:checked~label {
-    color: red;
+    color: var(--clr-utilities-2);
+    cursor: pointer;
 }
 
 .form-submit {
