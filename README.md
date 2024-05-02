@@ -19,7 +19,7 @@ The purpose of the website is to provide information about front-end development
 
 In terms of content, the site provides a brief overview of HTML, CSS, and JavaScript. Overall, the site presents front-end development as a fulfilling and successful career path that combines demand, creativity, learning, collaboration and impact.
 
-The live link can be found here - [\[Stundent-X\]](https://lorenz-127.github.io/Student-X/)
+The live link can be found here - [\[Student-X\]](https://lorenz-127.github.io/Student-X/)
 
 ## Features
 
@@ -38,8 +38,6 @@ In addition, you may also use this section to discuss plans for additional featu
   - On devices larger than 992px, the menu button disappears, and the navigation is traditionally displayed in the header.
   - The navigation bar is also slightly indented on very large screens to achieve a better display.
 
-    ![Menu-mobile](assets/feature-img/menu-mobile.png) ![Menu-tablet](assets/feature-img/menu-tablet.png) ![Menu-desktop](assets/feature-img/menu-desktop.png)
-
 ### Scroll To Top and Bottom - Button
 
   - Designed in the Main Colour Theme of HTML, CSS, and JavaScript Brand colours
@@ -48,7 +46,7 @@ In addition, you may also use this section to discuss plans for additional featu
   - Even if the function was not implemented with JavaScript, it is still a suitable analogy to the basic interaction of the three components.
   - In addition I added a scroll-behavior of smooth so that the page can be better perceived.
 
-    ![Scroll to Top Button - passiv](assets/feature-img/sttop-passiv.png) ![Button Activ on Hover](assets/feature-img/sttop-active.png)
+    
 
 ### Features Left to Implement
   - 
@@ -118,6 +116,7 @@ If this section grows too long, you may want to split it off into a separate fil
  
 
 ### Unfixed Bugs
+- So far, I have not encountered any other bugs.
 
 
 ## Deployment
