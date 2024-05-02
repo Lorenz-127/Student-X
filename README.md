@@ -116,7 +116,7 @@ If this section grows too long, you may want to split it off into a separate fil
  
 
 ### Unfixed Bugs
-- So far, I have not encountered any other bugs.
+- Issue 09 The quiz form do not uncheck radio buttons after selecting the next button.
 
 
 ## Deployment
