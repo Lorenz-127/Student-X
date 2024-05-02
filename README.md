@@ -2,10 +2,7 @@
 
 ## Introduction
 
-
 ![Responsive Mockup]
-
-
 
 The idea for this website was not the first thing that came to my mind. I thought, after seeing some examples of project websites, that they were all good examples, some with a real connection, others describing a hobby or even fictitious companies. I said to myself, 'OK, you can do that, you can still do that at the age of 50. So I started to think about what I could do. Something unusual like a traditional recipe from my home country or a page about a museum or a person. After doing some research on various topics, I came up with the following.
 
@@ -22,12 +19,7 @@ The purpose of the website is to provide information about front-end development
 
 In terms of content, the site provides a brief overview of HTML, CSS, and JavaScript. Overall, the site presents front-end development as a fulfilling and successful career path that combines demand, creativity, learning, collaboration and impact.
 
-
 The live link can be found here - [Stundent-X](https://lorenz-127.github.io/pp1-v3/)
-
-
-
-
 
 ## Features
 
@@ -51,17 +43,15 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Scroll To Top and Bottom - Button
 
   - Designed in the Main Colour Theme of HTML, CSS, and JavaScript Brand colours
-  - The Button appears at Scroll Down further than 120vh and is sticky at the bottom of the content.
   - The Element presents him self in the HTML Colours due to his position in an HTML element.
-  - “On Hover” The Button becomes his action colours for style and function represented by Background-colour of JavaScript and icon-Colour of CSS. 
+  - “On Hover” The Button becomes his action Colours for style and function represented by Background-colour of JavaScript and icon-Colour of CSS. 
   - Even if the function was not implemented with JavaScript, it is still a suitable analogy to the basic interaction of the three components.
   - In addition I added a scroll-behavior of smooth so that the page can be better perceived.
 
     ![Scroll to Top Button - passiv](assets/feature-img/sttop-passiv.png) ![Button Activ on Hover](assets/feature-img/sttop-active.png)
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Features Left to Implement
+  - 
 
 #### Theme toggle
   - The idea is that the user can switch between dark and light mode.
@@ -116,14 +106,14 @@ If this section grows too long, you may want to split it off into a separate fil
 - #Issue 03 - The Navbar-links caused an overflow to the right on mobile screen.
   - Solution - The vw property was set wrong for the navbar-links.
 - #Issue 04 - The hidden checkbox in the header to control the menu bar via the burger icon causes the menu links to shift to the right when clicking in the header area on larger screens (laptop and up).
-  - Solution: - Add class container-hader to prevent elements 'floating' around
+  - Solution: - Add class container-header to prevent elements 'floating' around
 - #Issue 05 - The Label color change for the correct / wrong answers on the Quiz form is not working.
   - Solution - Add the correct sibling selector in css and add the correct class to html element and restructure label/input.
 - #Issue 06 - Accessibility evaluation shows that the custom burger menu has a missing label
   - Solution: - Add an Aria-Label to the custom burger menu.
 - #Issue 07 - The Buttons To Top and Bottom are misaligned on small responsive devices.
   - Solution - Add Flexbox parent container to align the buttons correctly to display them the same on all devices.
-- #Issue 08 - The confirmation page shows the wron style and scroll button alingment.
+- #Issue 08 - The confirmation page shows the wrong style and scroll button alignment.
   - Solution - Add correct class name to parent container of the Scroll buttons.
  
 
@@ -135,9 +125,9 @@ If this section grows too long, you may want to split it off into a separate fil
 The website was deployed using GitHub Pages by following these steps:
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-   1. In the GitHub repository, navigate to the Settings tab
-   2. From the source section drop-down menu, select the Master Branch
-   3. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  1. In the GitHub repository, navigate to the Settings tab
+  2. From the source section drop-down menu, select the Master Branch
+  3. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - [Student-X](https://lorenz-127.github.io/Student-X/)
 
@@ -157,33 +147,23 @@ The live link can be found here - [Student-X](https://lorenz-127.github.io/Stude
   I have also re-written the script a bit differently to better suit my needs for this sites purpose and provide a more instructive example.
 
 ### Confirmation Page
-- The video at the confirmation page is embaded from Code Institute [YouTube Channel](https://www.youtube.com/@CodeinstituteNet)
-- The Link to the 5-day-coding-challenge leads direkt to the origin site on Code Institute [Free Coding Course](https://codeinstitute.net/de/5-day-coding-challenge/)
-- The Link to the Article written by Ciara McGlynn leads direkt to the origin site on Code Institutes 
+- The video at the confirmation page is embed from Code Institute [YouTube Channel](https://www.youtube.com/@CodeinstituteNet)
+- The Link to the 5-day-coding-challenge leads direct to the origin site on Code Institute [Free Coding Course](https://codeinstitute.net/de/5-day-coding-challenge/)
+- The Link to the Article written by Ciara McGlynn leads direct to the origin site on Code Institutes 
   [Blog Career Change](https://codeinstitute.net/de/blog/why-is-it-important-to-learn-programming/) why is it important to learn programming.
 
 ### Content
 
-- Slide-in navbar and
-- Burger menu
+#### Slide-in navbar and Burger menu
+  -The inspiration for these two features came to me during class. On the one hand, I wanted a burger menu, but not a copy of the Love Running tutorial.  I also wanted to avoid a simple solution with JavaScript and implement the function with vanilla CSS. From the lesson on UX design, I then had the idea for the slide-in menu to deviate sufficiently from the original from the walkthrough project. 
+    I got the inspiration from [W3School](https://www.w3schools.com/howto/howto_js_sidenav.asp) and this is my attempt to implemented it without JavaScript.
 
-  The inspiration for these two features came to me during class. On the one hand, I wanted a burger menu, but not a copy of the Love Running tutorial.  I also wanted to avoid a simple solution with JavaScript and implement the function with vanilla CSS. From the lesson on UX design, I then had the idea for the slide-in menu to deviate sufficiently from the original from the walkthrough project. 
-  I got the inspiration from https://www.w3schools.com/howto/howto_js_sidenav.asp and this is my attempt to implemented it without JavaScript.
+#### "Scroll To Top" Button
+  - This feature caught my attention when looking through example projects, shown by our cohort facilitator, where such a button was missing, in addition I added a scroll smooth so that the page can be better perceived. Again, I found what I was looking for on [W3School](https://www.w3schools.com/howto/howto_js_sidenav.asp). There was only one example with JavaScript, but it gave me enough information to implement the element myself in vanilla CSS.
 
-- "Scroll To Top" Button
-
-  This feature caught my attention when looking through example projects, shown by our cohort facilitator, where such a button was missing, in addition I added a scroll smooth so that the page can be better perceived. Again, I found what I was looking for on W3School. There was only one example with JavaScript, but it gave me enough information to implement the element myself in vanilla CSS.
-
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial]
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+#### Text Content
+  - The text for the articles relating to career change is paraphrased by me, with inspiration from the site [claremontconsulting.com](https://www.claremontconsulting.com/why-become-a-front-end-developer#:~:text=Front-end%20developers%20have%20a,digital%20products%20is%20incredibly%20rewarding)
+  - In addition, there is some content from the Code Institute website. These texts were also paraphrased by me and adapted to the needs of the website.
 
 ### Acknowledgements
 
@@ -192,7 +172,7 @@ Congratulations on completing your Readme, you have made another big stride in t
 
 ### Honourable mentions
 
-- I would like to thank my mentor Luke Buchana, who adapted to my learning pace
+- I would like to thank my mentor Luke Buchanan, who adapted to my learning pace
 
 - Vernell for his valuable and patient advice and tips to find the right solution. [LinkedIn](https://www.linkedin.com/in/vernellclark/) [GitHub](https://github.com/VCGithubCode)
 - Dimitris for his moral and technical support [LinkedIn](https://www.linkedin.com/in/dimitrios-thlivitis/) [GitHub](https://github.com/Dimitris112)
