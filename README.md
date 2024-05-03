@@ -2,7 +2,55 @@
 
 ## Introduction
 
-![Responsive Mockup](assets/feature-img/responsive%20mockup.png)
+The purpose of the website is to provide information about front-end development as a career path and possibly motivate others with the idea of a career change at 45+.
+
+In terms of content, the site provides a brief overview of HTML, CSS, and JavaScript. Overall, the site presents front-end development as a fulfilling and successful career path that combines demand, creativity, learning, collaboration and impact.
+
+### The live link can be found here - [\[Student-X\]](https://lorenz-127.github.io/Student-X/)
+
+![Responsive Mockup](assets/feature-img/amiresponsive.png)
+
+
+Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://lorenz-127.github.io/Student-X/index.html)
+---
+## CONTENTS
+
+* [User Experience](#user-experience-ux)
+  * [User Stories](#user-stories)
+
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+
+* [Features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+
+* [Testing](#testing)
+
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+
+## CONTENTS
+
+### UX
+#### Main Idea
 
 The idea for this website was not the first thing that came to my mind. I thought, after seeing some examples of project websites, that they were all good examples, some with a real connection, others describing a hobby or even fictitious companies. I said to myself, 'OK, you can do that, you can still do that at the age of 50. So I started to think about what I could do. Something unusual like a traditional recipe from my home country or a page about a museum or a person. After doing some research on various topics, I came up with the following.
 
@@ -15,13 +63,97 @@ The idea for this website was not the first thing that came to my mind. I though
   So I am student X.
   And that's how the idea for this site was born.
 
-The purpose of the website is to provide information about front-end development as a career path and possibly motivate others with the idea of a career change at 45+.
+#### User stories
+- #### First-Time Visitor Goals
+  - 
+- #### Returning Visitor Goals
+  -
+- #### Frequent User Goals
+  - 
 
-In terms of content, the site provides a brief overview of HTML, CSS, and JavaScript. Overall, the site presents front-end development as a fulfilling and successful career path that combines demand, creativity, learning, collaboration and impact.
+#### Owner Goals
+- #### First-Time Visitor Goals
+  - 
+- #### Returning Visitor Goals
+  -
+- #### Frequent User Goals
+  - 
 
-The live link can be found here - [\[Student-X\]](https://lorenz-127.github.io/Student-X/)
+## Design
+
+### Colour Scheme
+
+- The idea for this colour scheme was to choose a dark theme, as I am a dark-mode advocate. In addition to the theme, I added the brand-colours of HTML, CSS, and JavaScript. There are also some additional colours, e.g. for the quiz for shadows and other utilities.
+
+![colour palette](assets/feature-img/colors.png)
+
+- The colour scheme is reflected in all pages and features. For example, the links to the pages are highlighted in the corresponding colour and the features such as the scroll button shows the HTML colour in its resting state, as it is an HTML element. However, as soon as it is actively used, the colour changes to JavaScript and CSS as the function and style is controlled by these parts. Even if the button works solely in vanilla CSS, the colours are appropriate.
+
+### Typography
+
+- The fonts for this project are from google fonts.
+  - The Title Font is Montserrat the websafe font is Verdana and as fallback it would be sans-serif.
+  ![Montserrat](assets/feature-img/font-title.png)
+  - the Text Font is Work Sans the websafe font is Tahoma and the fallback would be sans-serif.
+  ![Work-Sans](assets/feature-img/font-text.png)
+
+### Wireframes
+
+#### Original Design
+
+- These are my notes on the fly after the first grid design didn't work, and I had to change the layout on the spot.
+
+#### Home
+- Desktop
+
+![wire-desktop](assets/feature-img/wire-desktop.png)
+
+- Tablet
+
+![wire-tablet](assets/feature-img/wire-tablet.png)
+
+- Mobile
+
+![wire-mobile](assets/feature-img/wire-mobile.png)
+
+- To save some paper and the associated trees, I sketched the wireframes on my Re-Markable 2.
 
 ## Features
+
+### Header
+- The header differs from larger to smaller screens.
+
+  - On devices larger than 992px, the menu button disappears, and the navigation is traditionally displayed in the header.
+  ![header desktop](assets/feature-img/navigation-large.png)
+
+  - On tablets, the navigation bar slides in horizontally to cover as little of the content as possible.
+
+  ![header tablet](assets/feature-img/navigation-medium.png)
+
+  - On mobile devices, the menu button allows the navigation bar to slide in vertically in a narrow version so as not to cover the entire screen.
+
+  ![header mobile](assets/feature-img/navigation-small.png)
+
+
+### Footer
+- The footer stays consistence throughout the whole design on all devices and screen-sizes
+
+![Footer](assets/feature-img/footer.png)
+
+### Home
+![home](assets/feature-img/home.png)
+### HTML
+![html](assets/feature-img/html.png)
+### CSS
+![css](assets/feature-img/css.png)
+### JavaScript
+![js](assets/feature-img/js.png)
+### Quiz
+![quiz](assets/feature-img/quiz.png)
+### Confirmation
+![confirmation](assets/feature-img/confirmation.png)
+
+---
 
 ### Existing Features
 
@@ -33,27 +165,25 @@ In addition, you may also use this section to discuss plans for additional featu
   - This function is intended to improve the user experience on mobile devices and tablets.
   - Even though it is a common practice here to use an icon from e.g. Fontawesome, I decided to create the burger buttons with vanilla CSS.
   - To do this, I gave three span elements the necessary styling in CSS.
-  - On mobile devices, the menu button allows the navigation bar to slide in vertically in a narrow version so as not to cover the entire screen.
-  - On tablets, the navigation bar slides in horizontally to cover as little of the content as possible.
-  - On devices larger than 992px, the menu button disappears, and the navigation is traditionally displayed in the header.
-  - The navigation bar is also slightly indented on very large screens to achieve a better display.
+
+![burger-button](assets/feature-img/burger-snapshot.png)
 
 ### Scroll To Top and Bottom - Button
 
   - Designed in the Main Colour Theme of HTML, CSS, and JavaScript Brand colours
   - The Element presents him self in the HTML Colours due to his position in an HTML element.
   - “On Hover” The Button becomes his action Colours for style and function represented by Background-colour of JavaScript and icon-Colour of CSS. 
+
+![scroll-css](assets/feature-img/scroll-css-snapshot.png)
+
   - Even if the function was not implemented with JavaScript, it is still a suitable analogy to the basic interaction of the three components.
   - In addition I added a scroll-behavior of smooth so that the page can be better perceived.
 
+![scroll](assets/feature-img/scroll-snapshot.png)
 
-### Quiz Form
-  
-   LMS  The Essentials  Checkbox and Radio Inputs  Radio Button
     
 
 ### Features Left to Implement
-  - 
 
 #### Theme toggle
   - The idea is that the user can switch between dark and light mode.
@@ -91,6 +221,9 @@ If this section grows too long, you may want to split it off into a separate fil
 - redundant links in navbar
   - solution - add different alt description to the effected links
 
+![wave error](assets/feature-img/redundant-link-%20error-navbar.png)
+![wave error solved](assets/feature-img/redundant-link-no-error-navbar.png)
+
 
 #### Lighthouse
 
@@ -114,15 +247,15 @@ If this section grows too long, you may want to split it off into a separate fil
 - Issue 06 - Accessibility evaluation shows that the custom burger menu has a missing label
   - Solution: - Add an Aria-Label to the custom burger menu.
 - Issue 07 - The Buttons To Top and Bottom are misaligned on small responsive devices.
-![Screenshot issue-07](assets/feature-img/issue-07.png)
   - Solution - Add Flexbox parent container to align the buttons correctly to display them the same on all devices.
-![Screenshot issue-07-solved](assets/feature-img/issue07-solved.png) ![Screenshot issue-07-solved-css](assets/feature-img/issue07-solved-css.png)
 - Issue 08 - The confirmation page shows the wrong style and scroll button alignment.
   - Solution - Add correct class name to parent container of the Scroll buttons.
 - Issue 09 The quiz form do not uncheck radio buttons after selecting the next button.
-![Screenshot issue-09](assets/feature-img/issue-09.png)
+![error 09](assets/feature-img/error-09.png)
+
   - Solution - Set the correct name attribute on input and label values
-![Screenshot issue-09-solved](assets/feature-img/issue-09-solved.png)
+  
+![error 09 solved](assets/feature-img/error-09-solved.png)
  
 
 ### Unfixed Bugs
@@ -173,11 +306,6 @@ The live link can be found here - [Student-X](https://lorenz-127.github.io/Stude
   - The text for the articles relating to career change is paraphrased by me, with inspiration from the site [claremontconsulting.com](https://www.claremontconsulting.com/why-become-a-front-end-developer#:~:text=Front-end%20developers%20have%20a,digital%20products%20is%20incredibly%20rewarding)
   - In addition, there is some content from the Code Institute [Career Support](https://codeinstitute.net/de/career-hub/?_gl=1*4muh7x*_up*MQ..*_ga*MTg0OTgxNjY4Mi4xNzE0NjY4Njc1*_ga_QFGPY7G0M3*MTcxNDY2ODY3NC4xLjAuMTcxNDY2ODY3NC4wLjAuNzQzNDk5MTc1) Website. These texts were also paraphrased by me and adapted to the needs of the website.
 
-#### Quiz Form
-  - LMS HTML The Essentials  Checkbox and Radio Inputs  Radio Button
-
-#### Sign-up Form
-  - LMS HTML The Essentials Coders Coffeehouse - Form Validation
 
 ### Acknowledgements
 
@@ -206,4 +334,4 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, t
