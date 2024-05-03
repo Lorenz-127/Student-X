@@ -17,9 +17,9 @@
     --clr-bg-code: #1a1a1a;
     --clr-primary-code: #808080;
     --clr-primary-code-text: #bdbdbd;
-    --clr-accent-html: #e34f26;
+    --clr-accent-html: #e44d26;
     --clr-accent-css: #1572b6;
-    --clr-accent-js: #f7df1e;
+    --clr-accent-js: #d6bb32;
 
     /* Utilities color */
     --clr-utilities-2: #ff0000;
@@ -413,11 +413,13 @@ legend {
 }
 
 input[type="radio"] {
-    display: block;
-    margin: 10px 0;
+
+    margin: 10px;
+    padding: 10px 0;
     cursor: pointer;
 }
 
+/* quiz styles for answer color */
 .radio-green:checked~label {
     color: var(--clr-utilities-4);
     cursor: pointer;
@@ -433,6 +435,7 @@ input[type="radio"] {
     justify-content: center;
 }
 
+/* styles the text field of the submit form */
 input[type="text"],
 input[type="email"] {
     height: 30px;
@@ -448,7 +451,7 @@ select {
     color: var(--clr-primary-text);
 }
 
-
+/* styles the submit button */
 input[type="submit"] {
     margin: 1.5rem 1rem 0 1rem;
     padding: 0.75rem;
@@ -461,13 +464,14 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-/* quiz styles for answer color */
+/* styles the submit button on hover fro better UX */
 input[type="submit"]:hover {
     background-color: transparent;
     color: var(--clr-utilities-3);
     border: 1px solid var(--clr-utilities-3);
 }
 
+/* prevents visited links to change color */
 .card a:visited {
     text-decoration: none;
     color: var(--clr-primary-code-text);
