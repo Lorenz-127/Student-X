@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![Responsive Mockup]
+![Responsive Mockup](assets/feature-img/responsive%20mockup.png)
 
 The idea for this website was not the first thing that came to my mind. I thought, after seeing some examples of project websites, that they were all good examples, some with a real connection, others describing a hobby or even fictitious companies. I said to myself, 'OK, you can do that, you can still do that at the age of 50. So I started to think about what I could do. Something unusual like a traditional recipe from my home country or a page about a museum or a person. After doing some research on various topics, I came up with the following.
 
@@ -46,6 +46,10 @@ In addition, you may also use this section to discuss plans for additional featu
   - Even if the function was not implemented with JavaScript, it is still a suitable analogy to the basic interaction of the three components.
   - In addition I added a scroll-behavior of smooth so that the page can be better perceived.
 
+
+### Quiz Form
+  
+   LMS  The Essentials  Checkbox and Radio Inputs  Radio Button
     
 
 ### Features Left to Implement
@@ -113,10 +117,13 @@ If this section grows too long, you may want to split it off into a separate fil
   - Solution - Add Flexbox parent container to align the buttons correctly to display them the same on all devices.
 - Issue 08 - The confirmation page shows the wrong style and scroll button alignment.
   - Solution - Add correct class name to parent container of the Scroll buttons.
+- Issue 09 The quiz form do not uncheck radio buttons after selecting the next button.
+![Screenshot error-09](assets/feature-img/error-09.png)
+  - Solution - Set the correct name attribute on input and label values
+![Screenshot error-09-solved](assets/feature-img/error-09-solved.png)
  
 
 ### Unfixed Bugs
-- Issue 09 The quiz form do not uncheck radio buttons after selecting the next button.
 
 
 ## Deployment
@@ -164,6 +171,11 @@ The live link can be found here - [Student-X](https://lorenz-127.github.io/Stude
   - The text for the articles relating to career change is paraphrased by me, with inspiration from the site [claremontconsulting.com](https://www.claremontconsulting.com/why-become-a-front-end-developer#:~:text=Front-end%20developers%20have%20a,digital%20products%20is%20incredibly%20rewarding)
   - In addition, there is some content from the Code Institute [Career Support](https://codeinstitute.net/de/career-hub/?_gl=1*4muh7x*_up*MQ..*_ga*MTg0OTgxNjY4Mi4xNzE0NjY4Njc1*_ga_QFGPY7G0M3*MTcxNDY2ODY3NC4xLjAuMTcxNDY2ODY3NC4wLjAuNzQzNDk5MTc1) Website. These texts were also paraphrased by me and adapted to the needs of the website.
 
+#### Quiz Form
+  - LMS HTML The Essentials  Checkbox and Radio Inputs  Radio Button
+
+#### Sign-up Form
+  - LMS HTML The Essentials Coders Coffeehouse - Form Validation
 
 ### Acknowledgements
 
