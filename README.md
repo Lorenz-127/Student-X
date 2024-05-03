@@ -114,13 +114,15 @@ If this section grows too long, you may want to split it off into a separate fil
 - Issue 06 - Accessibility evaluation shows that the custom burger menu has a missing label
   - Solution: - Add an Aria-Label to the custom burger menu.
 - Issue 07 - The Buttons To Top and Bottom are misaligned on small responsive devices.
+![Screenshot issue-07](assets/feature-img/issue-07.png)
   - Solution - Add Flexbox parent container to align the buttons correctly to display them the same on all devices.
+![Screenshot issue-07-solved](assets/feature-img/issue07-solved.png) ![Screenshot issue-07-solved-css](assets/feature-img/issue07-solved-css.png)
 - Issue 08 - The confirmation page shows the wrong style and scroll button alignment.
   - Solution - Add correct class name to parent container of the Scroll buttons.
 - Issue 09 The quiz form do not uncheck radio buttons after selecting the next button.
-![Screenshot error-09](assets/feature-img/error-09.png)
+![Screenshot issue-09](assets/feature-img/issue-09.png)
   - Solution - Set the correct name attribute on input and label values
-![Screenshot error-09-solved](assets/feature-img/error-09-solved.png)
+![Screenshot issue-09-solved](assets/feature-img/issue-09-solved.png)
  
 
 ### Unfixed Bugs
