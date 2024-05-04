@@ -484,30 +484,25 @@ input[type="submit"]:hover {
 @media (min-width: 768px) {
 
     /* Navbar */
-    .navbar-burger span {
+    .navbar-burger {
         display: block;
     }
 
     .navbar-links {
         background: var(--clr-primary-code);
         width: 75vw;
-        top: 85px;
-        padding: 1rem 0;
-        position: absolute;
         left: -100vw;
         margin-left: 100px;
-        transition: left 0.3s ease-in-out;
-        box-shadow: 0 2px 2px 0 var(--clr-box-shadow-light);
     }
 
     /* slide in change from vertical to horizontal */
-    header .navbar-links ul {
+    .navbar-links ul {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
-    header .navbar-links ul li {
+    .navbar-links ul li {
         margin: 0.5rem 0;
         padding: 0 1rem;
     }
@@ -526,37 +521,38 @@ input[type="submit"]:hover {
         display: none;
     }
 
-    .navbar-burger span {
-        display: none;
+    .navbar-burger {
+        /* display: none; */
+        visibility: hidden;
     }
 
-    header #logo {
+    #logo {
         text-wrap: nowrap;
         margin-left: 3rem;
     }
 
     /* navbar horizontal adjustment for larger screens */
-    header .navbar-links {
+    .navbar-links {
         width: 70vw;
         background: none;
         margin-left: 0;
         top: 5px;
-        left: +25dvw;
+        left: 25dvw;
         box-shadow: none;
     }
 
-    header .navbar-links ul {
+    .navbar-links ul {
         width: 100%;
         padding-right: 1rem;
         justify-content: end;
     }
 
-    header .navbar-links ul li {
+    .navbar-links ul li {
         margin: 0;
     }
 
     .navbar-toggle:checked~nav {
-        left: unset;
+        left: 25dvw;
     }
 
     /* Main Content */
@@ -615,7 +611,7 @@ input[type="submit"]:hover {
     }
 
     .navbar-links {
-        margin-left: -5rem;
+        margin-left: -1rem;
     }
 
     #container-home .card-box {
