@@ -121,6 +121,7 @@ The idea for this website was not the first thing that came to my mind. I though
 ## Features
 
 ### Header
+- 
 - The header differs from larger to smaller screens.
 
   - On devices larger than 992px, the menu button disappears, and the navigation is traditionally displayed in the header.
@@ -137,10 +138,15 @@ The idea for this website was not the first thing that came to my mind. I though
 
 ### Footer
 - The footer stays consistence throughout the whole design on all devices and screen-sizes
+- On hover the social media icons change their colour to the html utility colour.
 
 ![Footer](assets/feature-img/footer.png)
 
 ### Home
+
+- The home hero card box contains the 3 logos for HTML, CSS, and JavaScript, each of which leads to its corresponding page when clicked on hover.
+- 
+
 ![home](assets/feature-img/home.png)
 ### HTML
 ![html](assets/feature-img/html.png)
@@ -168,16 +174,31 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ![burger-button](assets/feature-img/burger-snapshot.png)
 
+![burger-button-close](assets/feature-img/burger-button-close.png)
+
+  - In addition, when clicked, the burger icon transforms into a red X to indicate to the user that they can also close the menu.
+
+![burger-button-transform](assets/feature-img/burger-button-transform.png)
+
+![burger-button-open](assets/feature-img/burger-button-open.png)
+
+
+
 ### Scroll To Top and Bottom - Button
 
   - Designed in the Main Colour Theme of HTML, CSS, and JavaScript Brand colours
-  - The Element presents him self in the HTML Colours due to his position in an HTML element.
-  - “On Hover” The Button becomes his action Colours for style and function represented by Background-colour of JavaScript and icon-Colour of CSS. 
+  - The element presents itself in the HTML colors due to its position within an HTML element.
 
 ![scroll-css](assets/feature-img/scroll-css-snapshot.png)
 
+  - “On Hover” The Button becomes his action Colours for style and function represented by Background-colour of JavaScript and icon-Colour of CSS.
+  - Another small detail is the transform: translateY option, which shifts the icon by 4 pixels in the direction in which it is to be scrolled. 
+  - To make this process more pleasant for the user, the movement is delayed by 200ms.
+
+![scroll-icon-css](assets/feature-img/scroll-icon-css-snapshot.png)
+
   - Even if the function was not implemented with JavaScript, it is still a suitable analogy to the basic interaction of the three components.
-  - In addition I added a scroll-behavior of smooth so that the page can be better perceived.
+  - In addition I added a scroll-behavior of smooth for the entire page so that the page can be better perceived.
 
 ![scroll](assets/feature-img/scroll-snapshot.png)
 
