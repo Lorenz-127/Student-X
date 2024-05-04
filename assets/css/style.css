@@ -307,7 +307,6 @@ main {
 }
 
 /* this code-snippet is from https://yoast.com/how-to-make-youtube-videos-responsive/ */
-
 .card-youtube {
     aspect-ratio: 16 / 9;
     width: 100%;

@@ -21,7 +21,6 @@ Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://lorenz-127.
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
-  * [Imagery](#imagery)
   * [Wireframes](#wireframes)
 
 * [Features](#features)
@@ -93,8 +92,11 @@ The idea for this website was not the first thing that came to my mind. I though
 
 - The fonts for this project are from google fonts.
   - The Title Font is Montserrat the websafe font is Verdana and as fallback it would be sans-serif.
+
   ![Montserrat](assets/feature-img/font-title.png)
+
   - the Text Font is Work Sans the websafe font is Tahoma and the fallback would be sans-serif.
+
   ![Work-Sans](assets/feature-img/font-text.png)
 
 ### Wireframes
@@ -272,6 +274,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - Issue 08 - The confirmation page shows the wrong style and scroll button alignment.
   - Solution - Add correct class name to parent container of the Scroll buttons.
 - Issue 09 The quiz form do not uncheck radio buttons after selecting the next button.
+
 ![error 09](assets/feature-img/error-09.png)
 
   - Solution - Set the correct name attribute on input and label values
@@ -281,6 +284,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
+# Deployment & Local Development
 
 ## Deployment
 
@@ -292,6 +296,26 @@ The website was deployed using GitHub Pages by following these steps:
   3. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - [Student-X](https://lorenz-127.github.io/Student-X/)
+
+## Local Development
+
+### How to Clone
+
+To clone the the repository:
+
+- Log into your account on github
+- Go to the repository of this project /Lorenz-127/Student-X/
+- Click on the code button, and copy your preferred clone link.
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+- Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+
+### How to Fork
+
+To fork the repository:
+
+- Log in (or sign up) to Github.
+- Go to the repository for this project, Lorenz-127/Student-X
+- Click the Fork button in the top right corner.
 
 ## Credits
 
@@ -310,6 +334,8 @@ The live link can be found here - [Student-X](https://lorenz-127.github.io/Stude
 
 ### Confirmation Page
 - The video at the confirmation page is embed from Code Institute [YouTube Channel](https://www.youtube.com/@CodeinstituteNet)
+  - How to make YouTube Video responsive I found on [Yoast.com](https://yoast.com/how-to-make-youtube-videos-responsive/)
+
 - The Link to the 5-day-coding-challenge leads direct to the origin site on Code Institute [Free Coding Course](https://codeinstitute.net/de/5-day-coding-challenge/)
 - The Link to the Article written by Ciara McGlynn leads direct to the origin site on Code Institutes 
   [Blog Career Change](https://codeinstitute.net/de/blog/why-is-it-important-to-learn-programming/) why is it important to learn programming.
@@ -320,42 +346,25 @@ The live link can be found here - [Student-X](https://lorenz-127.github.io/Stude
 - The inspiration for these two features came to me during class. On the one hand, I wanted a burger menu, but not a copy of the Love Running   tutorial. I also wanted to avoid a simple solution with JavaScript and implement the function with vanilla CSS. From the lesson on UX design, I then had the idea for the slide-in menu to deviate sufficiently from the original from the walkthrough project. 
     I got the inspiration from [W3School](https://www.w3schools.com/howto/howto_js_sidenav.asp) and this is my attempt to implemented it without JavaScript.
 
-#### "Scroll To Top" Button
+#### "Scroll To Top and Bottom" Button
   - This feature caught my attention when looking through example projects, shown by our cohort facilitator, where such a button was missing, in addition I added a scroll smooth so that the page can be better perceived. Again, I found what I was looking for on [W3School](https://www.w3schools.com/howto/howto_js_sidenav.asp). There was only one example with JavaScript, but it gave me enough information to implement the element myself in vanilla CSS.
 
 #### Text Content
   - The text for the articles relating to career change is paraphrased by me, with inspiration from the site [claremontconsulting.com](https://www.claremontconsulting.com/why-become-a-front-end-developer#:~:text=Front-end%20developers%20have%20a,digital%20products%20is%20incredibly%20rewarding)
   - In addition, there is some content from the Code Institute [Career Support](https://codeinstitute.net/de/career-hub/?_gl=1*4muh7x*_up*MQ..*_ga*MTg0OTgxNjY4Mi4xNzE0NjY4Njc1*_ga_QFGPY7G0M3*MTcxNDY2ODY3NC4xLjAuMTcxNDY2ODY3NC4wLjAuNzQzNDk5MTc1) Website. These texts were also paraphrased by me and adapted to the needs of the website.
 
-#### Video
-
-  - How to make YouTube Video responsive I found on [Yoast.com](https://yoast.com/how-to-make-youtube-videos-responsive/)
-
 ### Acknowledgements
 
 - My Peers in various Code Institute's Slack channels for their feedback and support.
-- All the great videos that are periodically posted by slack-bot in the various (You're a legend!)
+- All the great videos that are periodically posted by slack-bot in the various channels (You're a legend!)
 
 ### Honourable mentions
 
-- I would like to thank my mentor Luke Buchanan, who adapted to my learning pace
+- I would like to thank my mentor Luke Buchanan, who adapted on the spot to my learning pace.
 
 - Vernell for his valuable and patient advice and tips to find the right solution. [LinkedIn](https://www.linkedin.com/in/vernellclark/) [GitHub](https://github.com/VCGithubCode)
 - Dimitris for his moral and technical support [LinkedIn](https://www.linkedin.com/in/dimitrios-thlivitis/) [GitHub](https://github.com/Dimitris112)
 
-## Other General Project Advice
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message
-  - Make sure to keep the messages in the imperative mood
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, t
+## Most importantly:
+### My wife, who encourages me in all my endeavours, and without her unwavering support, none of this would be possible.
