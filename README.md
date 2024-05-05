@@ -8,7 +8,7 @@ In terms of content, the site provides a brief overview of HTML, CSS, and JavaSc
 
 ### The live link can be found here - [\[Student-X\]](https://lorenz-127.github.io/Student-X/)
 
-![Responsive Mockup](assets/feature-img/amiresponsive.png)
+![Responsive Mockup](assets/feature-img/amiresponsive-3.png)
 
 
 Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://lorenz-127.github.io/Student-X/index.html)
@@ -125,13 +125,14 @@ The idea for this website was not the first thing that came to my mind. I though
 ### Header
 - 
 - The header differs from larger to smaller screens.
+- The navbar link shows the colour of the page the user is on.
 
   - On devices larger than 992px, the menu button disappears, and the navigation is traditionally displayed in the header.
   ![header desktop](assets/feature-img/navigation-large.png)
 
   - On tablets, the navigation bar slides in horizontally to cover as little of the content as possible.
 
-  ![header tablet](assets/feature-img/navigation-medium.png)
+  ![header tablet](assets/feature-img/navigation-medium-open.png)
 
   - On mobile devices, the menu button allows the navigation bar to slide in vertically in a narrow version so as not to cover the entire screen.
 
@@ -147,18 +148,48 @@ The idea for this website was not the first thing that came to my mind. I though
 ### Home
 
 - The home hero card box contains the 3 logos for HTML, CSS, and JavaScript, each of which leads to its corresponding page when clicked on hover.
-- 
+- The homepage contains 5 reasons why a career change makes sense.
 
 ![home](assets/feature-img/home.png)
+
 ### HTML
+
+- On the HTML page, a boilerplate HTML code is shown in a picture.
+- The card boxes explain why HTML is useful to learn.
+- The navbar link shows the associated colour to HTML as an indicator on which site the user is.
+
 ![html](assets/feature-img/html.png)
 ### CSS
+
+- The CSS site also follows this concept.
+- The navbar link shows the associated colour to CSS as an indicator on which site the user is.
+- First, a short introduction to what CSS is,
+- Then the basics of CSS are explained in a sample code.
+- The code that is used in the screenshots originates from the website on which the user is visiting.
+
 ![css](assets/feature-img/css.png)
+
 ### JavaScript
+
+- The JavaScript page first shows a digital clock in the Hero/Home card box, followed by the script for this displayed clock.
+- The navbar link shows the associated colour to JavaScript as an indicator on which site the user is.
+- In the card below the example of the script above is explained.
+- This introduces the user to the basics of JavaScript.
+
 ![js](assets/feature-img/js.png)
+
 ### Quiz
-![quiz](assets/feature-img/quiz.png)
+
+- The quiz is intended to be an interactive way for users to reflect on the content of the website through a playful approach.
+- It is also intended to motivate users to find out more about front-end developers as a career change.
+
+![quiz](assets/feature-img/quiz-1.png)
+
 ### Confirmation
+
+- The confirmation page is intended as feedback for submitting the form.
+- In addition, the page contains further call to action elements that are intended to introduce and motivate him further into the topic of career change.
+
 ![confirmation](assets/feature-img/confirmation.png)
 
 ---
@@ -204,7 +235,60 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ![scroll](assets/feature-img/scroll-snapshot.png)
 
-    
+### Buttons call to action / Submit
+
+  - The Button present himself in the overall colour theme.
+
+![submit-button](assets/feature-img/call-to-action.png)
+
+  - The style of the buttons is set as a global rule, so it applies to all buttons.
+
+![submit-button-cs](assets/feature-img/call-to-action-css.png)
+
+  - On-hover the button, inverse the Colours to give the user a visual response on action.
+
+![submit-button-hover](assets/feature-img/call-to-action-hover.png)
+
+### radio button quiz
+
+- The answers are highlighted in colour when clicked on, so that a visual engagement with the user is also created here.
+- The colours represent whether the user's answer is correct (in green) or incorrect (in red).
+
+![quiz-feature](assets/feature-img/quiz-feature.png)
+
+- All elements are focusable with keyboard to make the page as accessible as possible.
+
+### submit form with dropdown
+
+- The form is a call to action. 
+- The name and email address fields are kept simple to minimise the user's need to submit the form.
+- With the dropdown, the user can set his age group and is motivated to learn more about software programming with the button. 
+
+![submit-form](assets/feature-img/submit-form.png)
+
+### Video from CI
+
+- The whole website aims to show that changing careers is a good choice even in your mid-40s. This video is ideal to increase this motivation.
+- The video is also responsive and available on all common devices.
+
+![responsive-video](assets/feature-img/video-confirmation-page.png)
+
+### Further call to action
+
+- The two card boxes below the video ask the user one last time for further information 
+  in the form of the blog, or even to register for the 5dcc. 
+- Both links lead directly to the respective content on the CI website in a new tab.
+
+![further-call-to-action](assets/feature-img/further-call-to-action.png)
+
+### Accessibility
+
+- I used alt="", aria-labels and semantic elements like as much as possible to make the site easy to navigate and understand by keyboard and/or screen reader users.
+- I made a small compromise with the HTML, CSS, and JavaScript pages. 
+- The colours on the links to the respective pages are part of the colour concept of the website. 
+- However, these three links resulted in a poor contrast rating but overall a minimal change in the overall accessibility rating.
+- Also, the digital numbers from the clock example are made of text elements, which is not ideal for screen readers.
+- The rating is never less than 94% on all pages.
 
 ### Features Left to Implement
 
@@ -215,15 +299,15 @@ In addition, you may also use this section to discuss plans for additional featu
 
 #### Language toggle
   - It is planned to make the site available in other languages ​​as well. For example, in German.
-    To point out that the Agentur für Arbeit supports such qualifications with an Bildungsgutschein.
+    To point out that the Government supports such qualifications with an education voucher.
 
-#### Html / CSS / JS pages
+#### Html / CSS / JS embedded code editor
   - The idea is to integrate a mini code editor into the respective page, so that the user can 
     practice directly in order to increase the motivation to do a retraining, and thus show that they can also do it.
 
 #### Quiz form
   - The quiz should send an evaluation of the answers to the server and produce a result.
-    This is displayed on the confirmation page, with a motivational text that confirms 
+  - This is displayed on the confirmation page, with a motivational text that confirms 
     that you are suitable for retraining as a software developer.
 
 
@@ -237,25 +321,8 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-### Validator Testing
 
-
-#### Wave
-- redundant links in navbar
-  - solution - add different alt description to the effected links
-
-![wave error](assets/feature-img/redundant-link-%20error-navbar.png)
-![wave error solved](assets/feature-img/redundant-link-no-error-navbar.png)
-
-
-#### Lighthouse
-
-#### HTML
-  -  [W3C validator]
-#### CSS
-  -  [(Jigsaw) validator]
-
-### Solved Bugs
+### Bug Fixes in the Production Process
 
 - Issue 01 - The first grid layout didn't work as desired.
   - Solution: - Change the design to Flexbox.
