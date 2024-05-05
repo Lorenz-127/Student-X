@@ -27,6 +27,7 @@
     --clr-utilities-4: #008000;
     --clr-box-shadow-dark: #00000080;
     --clr-box-shadow-light: #e9e9eb80;
+    --clr-text-shadow: 0 0 2px #000;
 
     /* Fonts preferred, websafe, fallback */
     --ff-title: "Montserrat", Verdana, sans-serif;
@@ -559,12 +560,12 @@ input[type="submit"]:hover {
     }
 
     /* Main Content */
-    #container-home {
+    .container-home {
         display: flex;
         justify-content: center;
     }
 
-    #container-home .card-box {
+    .container-home .card-box {
         max-width: 900px;
         max-height: fit-content;
     }
@@ -617,7 +618,7 @@ input[type="submit"]:hover {
         margin-left: -1rem;
     }
 
-    #container-home .card-box {
+    .container-home .card-box {
         max-width: 1000px;
         max-height: fit-content;
     }
