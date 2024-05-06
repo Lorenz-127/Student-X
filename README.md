@@ -32,7 +32,7 @@ Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://lorenz-127.
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-* [Deployment & Local Development](#deployment--local-development)
+* [Deployment & Local Development](#deployment-&-local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)
     * [How to Fork](#how-to-fork)
@@ -78,7 +78,7 @@ The idea for this website was not the first thing that came to my mind. I though
 - #### Frequent User Goals
   - 
 
-## Design
+## Design  [Top](#contents)
 
 ### Colour Scheme
 
@@ -99,13 +99,13 @@ The idea for this website was not the first thing that came to my mind. I though
 
   ![Work-Sans](assets/feature-img/font-text.png)
 
-### Wireframes
+### Wireframes  [Top](#contents)
 
 #### Original Design
 
 - These are my notes on the fly after the first grid design didn't work, and I had to change the layout on the spot.
 
-#### Home
+#### Home 
 - Desktop
 
 ![wire-desktop](assets/feature-img/wire-desktop.png)
@@ -120,7 +120,7 @@ The idea for this website was not the first thing that came to my mind. I though
 
 - To save some paper and the associated trees, I sketched the wireframes on my Re-Markable 2.
 
-## Features
+## Features  [Top](#contents)
 
 ### Header
 - 
@@ -150,7 +150,7 @@ The idea for this website was not the first thing that came to my mind. I though
 - The home hero card box contains the 3 logos for HTML, CSS, and JavaScript, each of which leads to its corresponding page when clicked on hover.
 - The homepage contains 5 reasons why a career change makes sense.
 
-![home](assets/feature-img/home.png)
+![home](assets/feature-img/home-full.png)
 
 ### HTML
 
@@ -158,7 +158,7 @@ The idea for this website was not the first thing that came to my mind. I though
 - The card boxes explain why HTML is useful to learn.
 - The navbar link shows the associated colour to HTML as an indicator on which site the user is.
 
-![html](assets/feature-img/html.png)
+![html](assets/feature-img/html-full.png)
 ### CSS
 
 - The CSS site also follows this concept.
@@ -167,7 +167,7 @@ The idea for this website was not the first thing that came to my mind. I though
 - Then the basics of CSS are explained in a sample code.
 - The code that is used in the screenshots originates from the website on which the user is visiting.
 
-![css](assets/feature-img/css.png)
+![css](assets/feature-img/css-full.png)
 
 ### JavaScript
 
@@ -176,25 +176,25 @@ The idea for this website was not the first thing that came to my mind. I though
 - In the card below the example of the script above is explained.
 - This introduces the user to the basics of JavaScript.
 
-![js](assets/feature-img/js.png)
+![js](assets/feature-img/js-full.png)
 
 ### Quiz
 
 - The quiz is intended to be an interactive way for users to reflect on the content of the website through a playful approach.
 - It is also intended to motivate users to find out more about front-end developers as a career change.
 
-![quiz](assets/feature-img/quiz-1.png)
+![quiz](assets/feature-img/quiz-full.png)
 
 ### Confirmation
 
 - The confirmation page is intended as feedback for submitting the form.
 - In addition, the page contains further call to action elements that are intended to introduce and motivate him further into the topic of career change.
 
-![confirmation](assets/feature-img/confirmation.png)
+![confirmation](assets/feature-img/confirmation-full.png)
 
 ---
 
-### Existing Features
+### Existing Features  [Top](#contents)
 
 ### Menu Toggle
 
@@ -278,7 +278,7 @@ The idea for this website was not the first thing that came to my mind. I though
 
 ![further-call-to-action](assets/feature-img/further-call-to-action.png)
 
-### Accessibility
+### Accessibility  [Top](#contents)
 
 - I used alt="", aria-labels and semantic elements like as much as possible to make the site easy to navigate and understand by keyboard and/or screen reader users.
 - I made a small compromise with the HTML, CSS, and JavaScript pages. 
@@ -307,7 +307,7 @@ The idea for this website was not the first thing that came to my mind. I though
   - This is displayed on the confirmation page, with a motivational text that confirms 
     that you are suitable for retraining as a software developer.
 
-## Testing
+## Testing  [Top](#contents)
 
 - ### [Link to testing.md](testing.md)
 
@@ -370,7 +370,7 @@ The idea for this website was not the first thing that came to my mind. I though
 
 - Issue V-5 toggle menu don't change status anymor due to refactor to avoid validation error.
 
-### Unfixed Bugs
+### Unfixed Bugs  [Top](#contents)
 
 - Issue 10 Video does not align with other card-box containers on smaller screens
 
@@ -390,7 +390,7 @@ The idea for this website was not the first thing that came to my mind. I though
   - Due to the approaching deadline, I have decided to deliver a functional menu. This is guaranteed. 
   - The slide in effect works and the menu is fully responsive.
 
-## Technologies Used
+## Technologies Used  [Top](#contents)
 
 **Github** - Used for storage of my site and for publishing online.\
 **Gitpod** - The IDE used for editing my site and pushing changes.\
@@ -404,7 +404,7 @@ The idea for this website was not the first thing that came to my mind. I though
 **Favicon Generator Website** - Converted PNG file that I made from the logo using photoshop and converted it into a favicon on website favicon.io\
 
 
-### Languages Used
+### Languages Used  [Top](#contents)
 
 **HTML**, **CSS** and (JavaScript, only for educational content not for site functions)
 
@@ -430,7 +430,7 @@ To Deploy the site using GitHub Pages by following these steps:
 5. From the source dropdown select main branch and press save.
 6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
-## Local Development
+## Local Development  [Top](#contents)
 
 ### How to Fork
 
@@ -450,7 +450,7 @@ To clone the the repository:
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
 
-# Credits
+# Credits  [Top](#contents)
 
 ### Styles, Icons, Images
 
@@ -474,7 +474,7 @@ To clone the the repository:
 - The Link to the Article written by Ciara McGlynn leads direct to the origin site on Code Institutes 
   [Blog Career Change](https://codeinstitute.net/de/blog/why-is-it-important-to-learn-programming/) why is it important to learn programming.
 
-### Content
+### Content  [Top](#contents)
 
 #### Slide-in navbar and Burger menu
 - The inspiration for these two features came to me during class. On the one hand, I wanted a burger menu, but not a copy of the Love Running   tutorial. I also wanted to avoid a simple solution with JavaScript and implement the function with vanilla CSS. From the lesson on UX design, I then had the idea for the slide-in menu to deviate sufficiently from the original from the walkthrough project. 
@@ -498,6 +498,7 @@ To clone the the repository:
 
 - Vernell for his valuable and patient advice and tips to find the right path for solution. [LinkedIn](https://www.linkedin.com/in/vernellclark/) [GitHub](https://github.com/VCGithubCode)
 - Dimitris for his moral and technical support [LinkedIn](https://www.linkedin.com/in/dimitrios-thlivitis/) [GitHub](https://github.com/Dimitris112)
+- Lewis for his native-speaking eyes on my mumbling writing skills. [GitHub](https://github.com/LcodeM)
 
-## Most importantly:
+## Most importantly:  [Top](#contents)
 ### My wife, who encourages me in all my endeavours, and without her unwavering support, none of this would be possible.
