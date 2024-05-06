@@ -24,8 +24,8 @@ Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://lorenz-127.
   * [Wireframes](#wireframes)
 
 * [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
-  * [Future Implementations](#future-implementations)
+  * [Existing Features](#existing-features)
+  * [Features Left to Implement](#features-left-to-implement)
   * [Accessibility](#accessibility)
 
 * [Technologies Used](#technologies-used)
@@ -196,9 +196,6 @@ The idea for this website was not the first thing that came to my mind. I though
 
 ### Existing Features
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Menu Toggle
 
   - This function is intended to improve the user experience on mobile devices and tablets.
@@ -312,15 +309,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing
 
-- [Link to testing.md](testing.md)
+- ### [Link to testing.md](testing.md)
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ### Bug Fixes in the Production Process
 
@@ -342,11 +332,11 @@ If this section grows too long, you may want to split it off into a separate fil
   - Solution - Add correct class name to parent container of the Scroll buttons.
 - Issue 09 The quiz form do not uncheck radio buttons after selecting the next button.
 
-![error 09](assets/feature-img/error-09.png)
+![error 09](assets/feature-img/issue-09.png)
 
   - Solution - Set the correct name attribute on input and label values
   
-![error 09 solved](assets/feature-img/error-09-solved.png)
+![error 09 solved](assets/feature-img/issue-09-solved.png)
 
 ### Bug Fixes through after validation
 
@@ -376,10 +366,6 @@ If this section grows too long, you may want to split it off into a separate fil
 
   - Solution: Add correct semicolon character at the end
 
-
-
-
-
 ### Bug Fixes caused through changes after validation
 
 - Issue V-5 toggle menu don't change status anymor due to refactor to avoid validation error.
@@ -404,6 +390,30 @@ If this section grows too long, you may want to split it off into a separate fil
   - Due to the approaching deadline, I have decided to deliver a functional menu. This is guaranteed. 
   - The slide in effect works and the menu is fully responsive.
 
+## Technologies Used
+
+**Github** - Used for storage of my site and for publishing online.\
+**Gitpod** - The IDE used for editing my site and pushing changes.\
+**Python** - Used python 3 via terminal to preview my site using a local http server.\
+**HTML5** - The core of the site was built with HTML version 5.\
+**CSS** - CSS was used to style the website and define fonts and layout.\
+**Youtube** - Videos embedded from Youtube.\
+**Font Awesome** - Social Media icons from Font Awesome.\
+**Google Chrome** - The website was built and tested in google Chrome.\
+**TinyPNG Website** - Used to compress images so they load faster.\
+**Favicon Generator Website** - Converted PNG file that I made from the logo using photoshop and converted it into a favicon on website favicon.io\
+
+
+### Languages Used
+
+**HTML**, **CSS** and (JavaScript, only for educational content not for site functions)
+
+### Programs Used
+
+**Github**   - I GitHub for the storage of my site and Gitpages to publish my website.
+**MS-Paint** - MS-Paint for some of my image resizing.
+**VS-Code**  - VS-Code Destop for various testing on a save playground.
+**Slack**    - Slack to communicate with my Mentor, Peers and get some help and infos.
 
 # Deployment & Local Development
 
@@ -427,7 +437,7 @@ To Deploy the site using GitHub Pages by following these steps:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, Lorenz-127/Student-X
+2. Go to the repository for this project, [lorenz-127/Sudent-X](https://github.com/Lorenz-127/Student-X)
 3. Click the Fork button in the top right corner.
 
 ### How to Clone
@@ -435,7 +445,7 @@ To fork the repository:
 To clone the the repository:
 
 1. Log into your account on github
-2. Go to the repository of this project /Lorenz-127/Student-X/
+2. Go to the repository of this project [lorenz-127/Sudent-X](https://github.com/Lorenz-127/Student-X)
 3. Click on the code button, and copy your preferred clone link.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
@@ -458,7 +468,7 @@ To clone the the repository:
 
 ### Confirmation Page
 - The video at the confirmation page is embed from Code Institute [YouTube Channel](https://www.youtube.com/@CodeinstituteNet)
-  - How to make YouTube Video responsive I found on [Paper Krane YouTube Channel](https://youtu.be/X4t0JxiBeO0)
+- How to make YouTube Video responsive I found on [Paper Krane YouTube Channel](https://youtu.be/X4t0JxiBeO0)
 
 - The Link to the 5-day-coding-challenge leads direct to the origin site on Code Institute [Free Coding Course](https://codeinstitute.net/de/5-day-coding-challenge/)
 - The Link to the Article written by Ciara McGlynn leads direct to the origin site on Code Institutes 
@@ -486,7 +496,7 @@ To clone the the repository:
 
 - I would like to thank my mentor Luke Buchanan, who adapted on the spot to my learning pace.
 
-- Vernell for his valuable and patient advice and tips to find the right solution. [LinkedIn](https://www.linkedin.com/in/vernellclark/) [GitHub](https://github.com/VCGithubCode)
+- Vernell for his valuable and patient advice and tips to find the right path for solution. [LinkedIn](https://www.linkedin.com/in/vernellclark/) [GitHub](https://github.com/VCGithubCode)
 - Dimitris for his moral and technical support [LinkedIn](https://www.linkedin.com/in/dimitrios-thlivitis/) [GitHub](https://github.com/Dimitris112)
 
 ## Most importantly:
