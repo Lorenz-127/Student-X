@@ -382,7 +382,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Bug Fixes caused through changes after validation
 
-
+- Issue V-5 toggle menu don't change status anymor due to refactor to avoid validation error.
 
 ### Unfixed Bugs
 
@@ -397,6 +397,13 @@ If this section grows too long, you may want to split it off into a separate fil
     Since I use a third-party code for the video in both cases, I leave it as it is and live with the error.
 
     The video is also 100% responsive with the code used, and therefore the UX is guaranteed.
+
+- Issue V-5 toggle menu don't change status anymore due to refactor to avoid validation error.
+  - I am not able to solve the problem without changing the entire structure or mechanics of the navigation bar.
+  - I could use JavaScript to solve the problem, but this would not meet the project scope.
+  - Due to the approaching deadline, I have decided to deliver a functional menu. This is guaranteed. 
+  - The slide in effect works and the menu is fully responsive.
+
 
 # Deployment & Local Development
 
