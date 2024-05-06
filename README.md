@@ -386,7 +386,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-- Issue 10 Video does not align with other card-box containers on smaler screens
+- Issue 10 Video does not align with other card-box containers on smaller screens
 
 ![error-10-error](assets/feature-img/issue-10-error.png)
 
