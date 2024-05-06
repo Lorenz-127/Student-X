@@ -601,7 +601,7 @@ input[type="submit"]:hover {
         height: auto;
     }
 
-    #container-card {
+    .container-card {
         display: flex;
         justify-content: center;
 
@@ -621,11 +621,10 @@ input[type="submit"]:hover {
         gap: 0.5rem;
     }
 
-    #container-card .card-box {
+    .container-card .card-box {
         max-width: 450px;
         max-height: fit-content;
     }
-
 }
 
 /* MARK: For Desktop >= 1200px */
@@ -644,12 +643,12 @@ input[type="submit"]:hover {
         max-height: fit-content;
     }
 
-    /* layout change from 2 columns to 3 columns for even larger screens*/
     .card-box-wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 0.5rem;
     }
+
 }
 
 /* For Desktop >= 2000px */
