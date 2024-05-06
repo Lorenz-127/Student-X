@@ -310,8 +310,9 @@ In addition, you may also use this section to discuss plans for additional featu
   - This is displayed on the confirmation page, with a motivational text that confirms 
     that you are suitable for retraining as a software developer.
 
-
 ## Testing
+
+- [Link to testing.md](testing.md)
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -320,7 +321,6 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 
 ### Bug Fixes in the Production Process
 
@@ -347,44 +347,93 @@ If this section grows too long, you may want to split it off into a separate fil
   - Solution - Set the correct name attribute on input and label values
   
 ![error 09 solved](assets/feature-img/error-09-solved.png)
- 
+
+### Bug Fixes through after validation
+
+- Issues V-1 Stray end tag on line 80 confirmation page
+
+![stray-end-tag](assets/feature-img/confirmation-error-stray-end-tag.png)
+
+  - Solution: Delete stray end tag 
+
+![stray-end-tag](assets/feature-img/confirmation-error-stray-end-tag-solved.png)
+
+- Issue V-2 Attribute alt not allowed on element a at this point.
+
+![error-alt-tag](assets/feature-img/error-header-logo-alt.png)
+
+  - Solution: Delete "alt" tag
+
+- Issue V-3 Element div not allowed as child of element label in this context.
+
+![error-div-inside-label](assets/feature-img/error-header-div-inside-label.png)
+
+  - Solution: Set correct element span
+
+- Issue V-4 Named character reference was not terminated by a semicolon.
+
+![error-span-syntax](assets/feature-img/error-header-span-syntax-error.png)
+
+  - Solution: Add correct semicolon character at the end
+
+
+
+
+
+### Bug Fixes caused through changes after validation
+
+
 
 ### Unfixed Bugs
+
+- Issue 10 Video does not align with other card-box containers on smaler screens
+
+![error-10-error](assets/feature-img/issue-10-error.png)
+
+  - The video container does not have the same margin distance on smaller devices as the other card-box containers. 
+    Error not yet fixed because this error has a lower priority due to the deadline. 
+
+    I had a solution for the problem. But it did not pass the W3C validation. 
+    Since I use a third-party code for the video in both cases, I leave it as it is and live with the error.
+
+    The video is also 100% responsive with the code used, and therefore the UX is guaranteed.
 
 # Deployment & Local Development
 
 ## Deployment
 
-The website was deployed using GitHub Pages by following these steps:
+The site is deployed using GitHub Pages - [Student-X](https://lorenz-127.github.io/Student-X/)
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  1. In the GitHub repository, navigate to the Settings tab
-  2. From the source section drop-down menu, select the Master Branch
-  3. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+To Deploy the site using GitHub Pages by following these steps:
 
-The live link can be found here - [Student-X](https://lorenz-127.github.io/Student-X/)
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [lorenz-127/Sudent-X](https://github.com/Lorenz-127/Student-X).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
 ## Local Development
-
-### How to Clone
-
-To clone the the repository:
-
-- Log into your account on github
-- Go to the repository of this project /Lorenz-127/Student-X/
-- Click on the code button, and copy your preferred clone link.
-- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-- Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
 
 ### How to Fork
 
 To fork the repository:
 
-- Log in (or sign up) to Github.
-- Go to the repository for this project, Lorenz-127/Student-X
-- Click the Fork button in the top right corner.
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, Lorenz-127/Student-X
+3. Click the Fork button in the top right corner.
 
-## Credits
+### How to Clone
+
+To clone the the repository:
+
+1. Log into your account on github
+2. Go to the repository of this project /Lorenz-127/Student-X/
+3. Click on the code button, and copy your preferred clone link.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+
+# Credits
 
 ### Styles, Icons, Images
 
@@ -392,7 +441,8 @@ To fork the repository:
 - The used Icons are from [fontawesome.com](https://fontawesome.com/icons)
 - The favicon was generated with the provided tool by [favicon.io ](https://favicon.io/favicon-generator/)
 - The Snapshots are from this Website's Code and made by my self with the Code Snapshot VS Code Desktop Plugin
-- The image [Coffee Mug Surrounded With Coffee Beans](https://www.pexels.com/photo/coffee-mug-surrounded-with-coffee-beans-585753/) is  from [Toni Cuenca](https://www.pexels.com/@ifreestock/) und free to use CC license on [pexels.com](https://www.pexels.com/)
+- The image [Coffee Mug Surrounded With Coffee Beans](https://www.pexels.com/photo/coffee-mug-surrounded-with-coffee-beans-585753/) is  
+  from [Toni Cuenca](https://www.pexels.com/@ifreestock/) und free to use CC license on [pexels.com](https://www.pexels.com/)
 
 ### JavaScript
 - For the idea of the digital clock, as an example for the JavaScript part, I was inspired by the [GreatStack's](https://youtu.be/5tC46h022YE) YouTube channel. 
@@ -401,7 +451,7 @@ To fork the repository:
 
 ### Confirmation Page
 - The video at the confirmation page is embed from Code Institute [YouTube Channel](https://www.youtube.com/@CodeinstituteNet)
-  - How to make YouTube Video responsive I found on [Yoast.com](https://yoast.com/how-to-make-youtube-videos-responsive/)
+  - How to make YouTube Video responsive I found on [Paper Krane YouTube Channel](https://youtu.be/X4t0JxiBeO0)
 
 - The Link to the 5-day-coding-challenge leads direct to the origin site on Code Institute [Free Coding Course](https://codeinstitute.net/de/5-day-coding-challenge/)
 - The Link to the Article written by Ciara McGlynn leads direct to the origin site on Code Institutes 
@@ -431,7 +481,6 @@ To fork the repository:
 
 - Vernell for his valuable and patient advice and tips to find the right solution. [LinkedIn](https://www.linkedin.com/in/vernellclark/) [GitHub](https://github.com/VCGithubCode)
 - Dimitris for his moral and technical support [LinkedIn](https://www.linkedin.com/in/dimitrios-thlivitis/) [GitHub](https://github.com/Dimitris112)
-
 
 ## Most importantly:
 ### My wife, who encourages me in all my endeavours, and without her unwavering support, none of this would be possible.
