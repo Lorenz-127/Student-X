@@ -30,9 +30,9 @@ Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://lorenz-127.
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+  * [Programs Used](#programs-used)
 
-* [Deployment & Local Development](#deployment-&-local-development)
+* [Deployment & Local Development](#deployment-and-local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)
     * [How to Fork](#how-to-fork)
@@ -464,13 +464,14 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 ### Programs Used
 
 - **Github**   - I GitHub for the storage of my site and Gitpages to publish my website.
+- **Balsamiq** - Balsamiq was the choice for the wireframes.
 - **MS-Paint** - MS-Paint for some of my image resizing.
 - **VS-Code**  - VS-Code Destop for various testing on a save playground.
 - **Slack**    - Slack to communicate with my Mentor, Peers and get some help and infos.
 
 [Top](#contents)
 
-# Deployment & Local Development
+# Deployment and Local Development
 
 ## Deployment
 
