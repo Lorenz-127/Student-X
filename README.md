@@ -46,11 +46,9 @@ Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://lorenz-127.
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
-## CONTENTS
 
-### UX
-#### Main Idea
-
+## User Experience
+### Main Idea
 The idea for this website was not the first thing that came to my mind. I thought, after seeing some examples of project websites, that they were all good examples, some with a real connection, others describing a hobby or even fictitious companies. I said to myself, 'OK, you can do that, you can still do that at the age of 50. So I started to think about what I could do. Something unusual like a traditional recipe from my home country or a page about a museum or a person. After doing some research on various topics, I came up with the following.
 
 - Who am I? 
@@ -62,21 +60,40 @@ The idea for this website was not the first thing that came to my mind. I though
   So I am student X.
   And that's how the idea for this site was born.
 
-#### User stories
-- #### First-Time Visitor Goals
-  - 
-- #### Returning Visitor Goals
-  -
-- #### Frequent User Goals
-  - 
+### Project Goal
+The project aims to encourage individuals in the 45+ age group to explore the field of software development, particularly front-end development. By providing insights into HTML, CSS, and JavaScript, the website seeks to spark interest and demonstrate the viability of transitioning into a tech career at any age.
 
-#### Owner Goals
+### Target Audience
+-   Individuals considering a career change into software development
+-   Visitors aged 45 and above seeking new career opportunities
+
+### User Goals
+-   Gain motivation and inspiration for pursuing a career change into software development.
+-   Learn about the essentials of front-end development, including HTML, CSS, and JavaScript.
+-   Understand the potential benefits and opportunities in the field of software development.
+
+### Site Owner Goals
+-   Inspire and motivate individuals in the 45+ age group to explore software development.
+-   Provide valuable resources and information about front-end development.
+-   Encourage the visitor to register to the 5dcc from Code Institute.
+-   To portray a positive brand image.
+
+### User stories
 - #### First-Time Visitor Goals
-  - 
+  - As a first-time visitor, I want to understand the purpose of the website and how it can benefit me.
 - #### Returning Visitor Goals
-  -
+  - Upon returning to the site, I aim to delve deeper into the content and explore resources related to HTML, CSS, and JavaScript.
 - #### Frequent User Goals
-  - 
+  - As a frequent user, I have the chance to finally subscribe to the 5dcc.
+
+### Owner Goals
+- #### First-Time Visitor Goals
+  -   The primary goal for first-time visitors is to capture their interest and motivate them to explore further. 
+- #### Returning Visitor Goals
+  -   For returning visitors, the goal is to provide additional value through in-depth content and resources, encouraging continued engagement.
+- #### Frequent User Goals
+  - The aim for frequent users is to subscribe to the 5dcc.
+
 
 ## Design  [Top](#contents)
 
