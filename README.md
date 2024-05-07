@@ -94,8 +94,9 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 - #### Frequent User Goals
   - The aim for frequent users is to subscribe to the 5dcc.
 
+[Top](#contents)
 
-## Design  [Top](#contents)
+## Design  
 
 ### Colour Scheme
 
@@ -116,7 +117,9 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 
   ![Work-Sans](assets/feature-img/font-text.png)
 
-### Wireframes  [Top](#contents)
+[Top](#contents)
+
+### Wireframes  
 
 #### Original Design
 
@@ -137,7 +140,9 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 
 - To save some paper and the associated trees, I sketched the wireframes on my Re-Markable 2.
 
-## Features  [Top](#contents)
+[Top](#contents)
+
+## Features
 
 ### Header
 - 
@@ -196,7 +201,6 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 ![js](assets/feature-img/js-full.png)
 
 
-
 ### Quiz
 
 - The quiz is intended to be an interactive way for users to reflect on the content of the website through a playful approach.
@@ -229,9 +233,10 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 
 ![confirmation](assets/feature-img/confirmation-full.png)
 
+[Top](#contents)
 ---
 
-### Existing Features  [Top](#contents)
+### Existing Features
 
 ### Menu Toggle
 
@@ -315,7 +320,9 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 
 ![further-call-to-action](assets/feature-img/further-call-to-action.png)
 
-### Accessibility  [Top](#contents)
+[Top](#contents)
+
+### Accessibility
 
 - I used alt="", aria-labels and semantic elements like as much as possible to make the site easy to navigate and understand by keyboard and/or screen reader users.
 - I made a small compromise with the HTML, CSS, and JavaScript pages. 
@@ -344,7 +351,9 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
   - This is displayed on the confirmation page, with a motivational text that confirms 
     that you are suitable for retraining as a software developer.
 
-## Testing  [Top](#contents)
+[Top](#contents)
+
+## Testing
 
 - ### [Link to testing.md](testing.md)
 
@@ -407,7 +416,9 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 
 - Issue V-5 toggle menu don't change status anymor due to refactor to avoid validation error.
 
-### Unfixed Bugs  [Top](#contents)
+[Top](#contents)
+
+### Unfixed Bugs
 
 - Issue 10 Video does not align with other card-box containers on smaller screens
 
@@ -427,7 +438,7 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
   - Due to the approaching deadline, I have decided to deliver a functional menu. This is guaranteed. 
   - The slide in effect works and the menu is fully responsive.
 
-## Technologies Used  [Top](#contents)
+## Technologies Used
 
 **Github** - Used for storage of my site and for publishing online.\
 **Gitpod** - The IDE used for editing my site and pushing changes.\
@@ -441,16 +452,20 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 **Favicon Generator Website** - Converted PNG file that I made from the logo using photoshop and converted it into a favicon on website favicon.io\
 
 
-### Languages Used  [Top](#contents)
+### Languages Used
 
-**HTML**, **CSS** and (JavaScript, only for educational content not for site functions)
+- **HTML**
+- **CSS**
+- and (JavaScript, only for educational content not for site functions).
 
 ### Programs Used
 
-**Github**   - I GitHub for the storage of my site and Gitpages to publish my website.
-**MS-Paint** - MS-Paint for some of my image resizing.
-**VS-Code**  - VS-Code Destop for various testing on a save playground.
-**Slack**    - Slack to communicate with my Mentor, Peers and get some help and infos.
+- **Github**   - I GitHub for the storage of my site and Gitpages to publish my website.
+- **MS-Paint** - MS-Paint for some of my image resizing.
+- **VS-Code**  - VS-Code Destop for various testing on a save playground.
+- **Slack**    - Slack to communicate with my Mentor, Peers and get some help and infos.
+
+[Top](#contents)
 
 # Deployment & Local Development
 
@@ -467,7 +482,7 @@ To Deploy the site using GitHub Pages by following these steps:
 5. From the source dropdown select main branch and press save.
 6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
-## Local Development  [Top](#contents)
+## Local Development
 
 ### How to Fork
 
@@ -487,7 +502,9 @@ To clone the the repository:
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
 
-# Credits  [Top](#contents)
+[Top](#contents)
+
+# Credits
 
 ### Styles, Icons, Images
 
@@ -511,7 +528,9 @@ To clone the the repository:
 - The Link to the Article written by Ciara McGlynn leads direct to the origin site on Code Institutes 
   [Blog Career Change](https://codeinstitute.net/de/blog/why-is-it-important-to-learn-programming/) why is it important to learn programming.
 
-### Content  [Top](#contents)
+[Top](#contents)
+
+### Content
 
 #### Slide-in navbar and Burger menu
 - The inspiration for these two features came to me during class. On the one hand, I wanted a burger menu, but not a copy of the Love Running   tutorial. I also wanted to avoid a simple solution with JavaScript and implement the function with vanilla CSS. From the lesson on UX design, I then had the idea for the slide-in menu to deviate sufficiently from the original from the walkthrough project. 
@@ -537,5 +556,7 @@ To clone the the repository:
 - Dimitris for his moral and technical support [LinkedIn](https://www.linkedin.com/in/dimitrios-thlivitis/) [GitHub](https://github.com/Dimitris112)
 - Lewis for his native-speaking eyes on my mumbling writing skills. [GitHub](https://github.com/LcodeM)
 
-## Most importantly:  [Top](#contents)
+[Top](#contents)
+
+## Most importantly:
 ### My wife, who encourages me in all my endeavours, and without her unwavering support, none of this would be possible.

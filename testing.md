@@ -1,6 +1,9 @@
 # Tests
 
-## Manual Testing
+### Manual Testing
+  - [Lighthouse](#lighthouse)
+  - [HTML](#html)
+  - [External Testing](#external-testing)
 
 ### Validator Testing
 
@@ -54,6 +57,8 @@
   - The Video itself has CC aviable, therfore I ignore the alert.
   - pass
 
+[Top](#tests)
+
 ### HTML
 
 #### Home
@@ -106,6 +111,7 @@
 
 ![wave error solved](assets/feature-img/redundant-link-no-error-navbar.png)
 
+[Top](#tests)
 
 ## Lighthouse
 
@@ -133,51 +139,43 @@
 
 ![lighthouse-confirmation](assets/feature-img/lighthouse-confirmation.png)
 
-## External testing
+[Top](#tests)
+
+<div align="left">
+
+## External Testing   
 
 Additional testing was taken by friends and family on a variety of devices and screen sizes.
 
+### Navbar
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-
-| --- | --- | --- | --- | --- |
-
-| `Navbar` |
-
-| | | | | |
-
+| :---: | :---: | :---: | :---: | :---: |
 | Title | When clicked the user will be redirected to the home page. | Clicked title | Redirected to the home page. | Pass |
-
 | Home Page Link | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
-| HTML  Link | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
+| HTML Link | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
 | CSS Link | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
 | JavaScript Link | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
 | Quiz Link | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
 | Confirmation page | When clicked on the links the user will be redirected to respective page.| Clicked link | Redirected to the page. | Pass |
 
-| --- | --- | --- | --- | --- |
+### Footer
 
-| `Footer` |
-
-| | | | | |
-
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| :---: | :---: | :---: | :---: | :---: |
 | Social Icons | When clicked the user will be redirected to the appropriate social media pages in a new window. | Clicked icon | Redirected to the social media page in a new window. | Pass |
 
-| --- | --- | --- | --- | --- |
+### JavaScript Page
 
-| `JavaScript Page` |
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| :---: | :---: | :---: | :---: | :---: |
+| Clock | Clock shows on tablet and up and is working | on page load | Clock shows on up and is working. | Pass |
+| Clock | Clock does not show on mobile | on page load | Clock does not show. | Pass |
 
-| | | | | |
+### Quiz Page
 
-| Clock | Clock shows on tablet and up and is working | on page load |  Clock shows on up and is working. | Pass |
-| Clock | Clock does not show on mobile | on page load |   Clock does not show. | Pass |
-
-| --- | --- | --- | --- | --- |
-
-| `Quiz Page` |
-
-| | | | |
-
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| :---: | :---: | :---: | :---: | :---: |
 | Radio buttons Answer text | When clicked will show the correct answer colour | Clicked on the radio buttons or the answer text | shows the correct colour for the answer | Pass |
 | Submit Form Name | When left the fields blank required message shows up | let field blank | required message shows up | Pass |
 | Submit Form Email | When left the fields blank required message shows up | let field blank | required message shows up | Pass |
@@ -185,17 +183,15 @@ Additional testing was taken by friends and family on a variety of devices and s
 | Submit Form Dropdown | When fill out the fields required message shows up | do not select | required message shows up | Pass |
 | Submit Button | When button clicked redirect to confirmation page | click button | redirect to confirmation page | Pass |
 
+### Confirmation Page
 
-| --- | --- | --- | --- | --- |
-
-| `Confirmation page` |
-
-| | | | |
-
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| :---: | :---: | :---: | :---: | :---: |
 | YouTube video | Video does not autoplay only when clicked does it play. | Clicked video | Video plays | Pass |
 | 5dcc Button | When button clicked redirect to external CI 5dcc page | click button | redirect to external CI 5dcc page | Pass |
-| Blog  Button | When button clicked redirect to external CI blog page | click button | redirect to external CI blog page | Pass |
+| Blog Button | When button clicked redirect to external CI blog page | click button | redirect to external CI blog page | Pass |
 
-| --- | --- | --- | --- | --- |
+</div>
 
+[Top](#tests)
 - - -
