@@ -10,7 +10,6 @@ In terms of content, the site provides a brief overview of HTML, CSS, and JavaSc
 
 ![Responsive Mockup](assets/feature-img/amiresponsive-3.png)
 
-
 Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://lorenz-127.github.io/Student-X/index.html)
 ---
 ## CONTENTS
@@ -48,10 +47,12 @@ Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://lorenz-127.
 
 
 ## User Experience
+
 ### Main Idea
+
 The idea for this website was not the first thing that came to my mind. I thought, after seeing some examples of project websites, that they were all good examples, some with a real connection, others describing a hobby or even fictitious companies. I said to myself, 'OK, you can do that, you can still do that at the age of 50. So I started to think about what I could do. Something unusual like a traditional recipe from my home country or a page about a museum or a person. After doing some research on various topics, I came up with the following.
 
-- Who am I? 
+- Who am I?
 - Why am I doing this course?
 - Where do I want it to take me?
 - How can I motivate others to do it?
@@ -61,34 +62,43 @@ The idea for this website was not the first thing that came to my mind. I though
   And that's how the idea for this site was born.
 
 ### Project Goal
+
 The project aims to encourage individuals in the 45+ age group to explore the field of software development, particularly front-end development. By providing insights into HTML, CSS, and JavaScript, the website seeks to spark interest and demonstrate the viability of transitioning into a tech career at any age.
 
 ### Target Audience
+
 -   Individuals considering a career change into software development
 -   Visitors aged 45 and above seeking new career opportunities
 
 ### User Goals
+
 -   Gain motivation and inspiration for pursuing a career change into software development.
 -   Learn about the essentials of front-end development, including HTML, CSS, and JavaScript.
 -   Understand the potential benefits and opportunities in the field of software development.
 
 ### Site Owner Goals
+
 -   Inspire and motivate individuals in the 45+ age group to explore software development.
 -   Provide valuable resources and information about front-end development.
 -   Encourage the visitor to register to the 5dcc from Code Institute.
 -   To portray a positive brand image.
 
 ### User stories
+
 - #### First-Time Visitor Goals
+
   - As a first-time visitor, I want to understand the purpose of the website and how it can benefit me.
+
 - #### Returning Visitor Goals
+
   - Upon returning to the site, I aim to delve deeper into the content and explore resources related to HTML, CSS, and JavaScript.
 - #### Frequent User Goals
+
   - As a frequent user, I have the chance to finally subscribe to the 5dcc.
 
 ### Owner Goals
 - #### First-Time Visitor Goals
-  -   The primary goal for first-time visitors is to capture their interest and motivate them to explore further. 
+  -   The primary goal for first-time visitors is to capture their interest and motivate them to explore further.
 - #### Returning Visitor Goals
   -   For returning visitors, the goal is to provide additional value through in-depth content and resources, encouraging continued engagement.
 - #### Frequent User Goals
@@ -123,7 +133,7 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 
 #### Lofi Design
 
-- Wireframe with basic layout after the first grid design failed. I didn't draw all the different pages, but this visualisation helped me to get a better overview of the new design.
+- Wireframe with basic layout after the first grid design failed. I didn't draw all the different pages, but this visualization helped me to get a better overview of the new design.
 
 #### Home 
 - Desktop large
@@ -165,6 +175,7 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 
 
 ### Footer
+
 - The footer stays consistence throughout the whole design on all devices and screen-sizes
 - On hover the social media icons change their colour to the html utility colour.
 
@@ -184,6 +195,7 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 - The navbar link shows the associated colour to HTML as an indicator on which site the user is.
 
 ![html](assets/feature-img/html-full.png)
+
 ### CSS
 
 - The CSS site also follows this concept.
@@ -202,7 +214,6 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 - This introduces the user to the basics of JavaScript.
 
 ![js](assets/feature-img/js-full.png)
-
 
 ### Quiz
 
@@ -237,6 +248,7 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 ![confirmation](assets/feature-img/confirmation-full.png)
 
 [Top](#contents)
+
 ---
 
 ### Existing Features
@@ -256,7 +268,6 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 ![burger-button-transform](assets/feature-img/burger-button-transform.png)
 
 ![burger-button-open](assets/feature-img/burger-button-open.png)
-
 
 
 ### Scroll To Top and Bottom - Button
@@ -302,9 +313,9 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 
 ### submit form with dropdown
 
-- The form is a call to action. 
-- The name and email address fields are kept simple to minimise the user's need to submit the form.
-- With the dropdown, the user can set his age group and is motivated to learn more about software programming with the button. 
+- The form is a call to action.
+- The name and email address fields are kept simple to minimize the user's need to submit the form.
+- With the dropdown, the user can set his age group and is motivated to learn more about software programming with the button.
 
 ![submit-form](assets/feature-img/submit-form.png)
 
@@ -317,8 +328,8 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 
 ### Further call to action
 
-- The two card boxes below the video ask the user one last time for further information 
-  in the form of the blog, or even to register for the 5dcc. 
+- The two card boxes below the video ask the user one last time for further information
+  in the form of the blog, or even to register for the 5dcc.
 - Both links lead directly to the respective content on the CI website in a new tab.
 
 ![further-call-to-action](assets/feature-img/further-call-to-action.png)
@@ -328,8 +339,8 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 ### Accessibility
 
 - I used alt="", aria-labels and semantic elements like as much as possible to make the site easy to navigate and understand by keyboard and/or screen reader users.
-- I made a small compromise with the HTML, CSS, and JavaScript pages. 
-- The colours on the links to the respective pages are part of the colour concept of the website. 
+- I made a small compromise with the HTML, CSS, and JavaScript pages.
+- The colours on the links to the respective pages are part of the colour concept of the website.
 - However, these three links resulted in a poor contrast rating but overall a minimal change in the overall accessibility rating.
 - Also, the digital numbers from the clock example are made of text elements, which is not ideal for screen readers.
 - The rating is never less than 94% on all pages.
@@ -337,19 +348,23 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 ### Features Left to Implement
 
 #### Theme toggle
+
   - The idea is that the user can switch between dark and light mode.
     In the associated script In addition, it can be specified that the selected theme 
     is saved to local-storage so that the user does not have to switch again the next time visit.
 
 #### Language toggle
+
   - It is planned to make the site available in other languages ​​as well. For example, in German.
     To point out that the Government supports such qualifications with an education voucher.
 
 #### Html / CSS / JS embedded code editor
+
   - The idea is to integrate a mini code editor into the respective page, so that the user can 
     practice directly in order to increase the motivation to do a retraining, and thus show that they can also do it.
 
 #### Quiz form
+
   - The quiz should send an evaluation of the answers to the server and produce a result.
   - This is displayed on the confirmation page, with a motivational text that confirms 
     that you are suitable for retraining as a software developer.
@@ -366,7 +381,7 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 - Issue 01 - The first grid layout didn't work as desired.
   - Solution: - Change the design to Flexbox.
 - Issue 02 - The Elements in the footer have not aligned correctly.
-  - Solution: - Add the display: felx property to the correct parent element.
+  - Solution: - Add the display: flex property to the correct parent element.
 - Issue 03 - The Navbar-links caused an overflow to the right on mobile screen.
   - Solution - The vw property was set wrong for the navbar-links.
 - Issue 04 - The hidden checkbox in the header to control the menu bar via the burger icon causes the menu links to shift to the right when clicking in the header area on larger screens (laptop and up).
@@ -427,10 +442,10 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 
 ![error-10-error](assets/feature-img/issue-10-error.png)
 
-  - The video container does not have the same margin distance on smaller devices as the other card-box containers. 
-    Error not yet fixed because this error has a lower priority due to the deadline. 
+  - The video container does not have the same margin distance on smaller devices as the other card-box containers.
+    Error not yet fixed because this error has a lower priority due to the deadline.
 
-    I had a solution for the problem. But it did not pass the W3C validation. 
+    I had a solution for the problem. But it did not pass the W3C validation.
     Since I use a third-party code for the video in both cases, I leave it as it is and live with the error.
 
     The video is also 100% responsive with the code used, and therefore the UX is guaranteed.
@@ -438,7 +453,7 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 - Issue V-5 toggle menu don't change status anymore due to refactor to avoid validation error.
   - I am not able to solve the problem without changing the entire structure or mechanics of the navigation bar.
   - I could use JavaScript to solve the problem, but this would not meet the project scope.
-  - Due to the approaching deadline, I have decided to deliver a functional menu. This is guaranteed. 
+  - Due to the approaching deadline, I have decided to deliver a functional menu. This is guaranteed.
   - The slide in effect works and the menu is fully responsive.
 
 ## Technologies Used
@@ -520,16 +535,18 @@ To clone the the repository:
   from [Toni Cuenca](https://www.pexels.com/@ifreestock/) und free to use CC license on [pexels.com](https://www.pexels.com/)
 
 ### JavaScript
-- For the idea of the digital clock, as an example for the JavaScript part, I was inspired by the [GreatStack's](https://youtu.be/5tC46h022YE) YouTube channel. 
-  I have specifically adapted the design and functionality for this website. 
+
+- For the idea of the digital clock, as an example for the JavaScript part, I was inspired by the [GreatStack's](https://youtu.be/5tC46h022YE) YouTube channel.
+  I have specifically adapted the design and functionality for this website.
   I have also re-written the script a bit differently to better suit my needs for this sites purpose and provide a more instructive example.
 
 ### Confirmation Page
+
 - The video at the confirmation page is embed from Code Institute [YouTube Channel](https://www.youtube.com/@CodeinstituteNet)
 - How to make YouTube Video responsive I found on [Paper Krane YouTube Channel](https://youtu.be/X4t0JxiBeO0)
 
 - The Link to the 5-day-coding-challenge leads direct to the origin site on Code Institute [Free Coding Course](https://codeinstitute.net/de/5-day-coding-challenge/)
-- The Link to the Article written by Ciara McGlynn leads direct to the origin site on Code Institutes 
+- The Link to the Article written by Ciara McGlynn leads direct to the origin site on Code Institutes.
   [Blog Career Change](https://codeinstitute.net/de/blog/why-is-it-important-to-learn-programming/) why is it important to learn programming.
 
 [Top](#contents)
@@ -537,13 +554,16 @@ To clone the the repository:
 ### Content
 
 #### Slide-in navbar and Burger menu
-- The inspiration for these two features came to me during class. On the one hand, I wanted a burger menu, but not a copy of the Love Running   tutorial. I also wanted to avoid a simple solution with JavaScript and implement the function with vanilla CSS. From the lesson on UX design, I then had the idea for the slide-in menu to deviate sufficiently from the original from the walkthrough project. 
+
+- The inspiration for these two features came to me during class. On the one hand, I wanted a burger menu, but not a copy of the Love Running   tutorial. I also wanted to avoid a simple solution with JavaScript and implement the function with vanilla CSS. From the lesson on UX design, I then had the idea for the slide-in menu to deviate sufficiently from the original from the walkthrough project.
     I got the inspiration from [W3School](https://www.w3schools.com/howto/howto_js_sidenav.asp) and this is my attempt to implemented it without JavaScript.
 
 #### "Scroll To Top and Bottom" Button
+
   - This feature caught my attention when looking through example projects, shown by our cohort facilitator, where such a button was missing, in addition I added a scroll smooth so that the page can be better perceived. Again, I found what I was looking for on [W3School](https://www.w3schools.com/howto/howto_js_sidenav.asp). There was only one example with JavaScript, but it gave me enough information to implement the element myself in vanilla CSS.
 
 #### Text Content
+
   - The text for the articles relating to career change is paraphrased by me, with inspiration from the site [claremontconsulting.com](https://www.claremontconsulting.com/why-become-a-front-end-developer#:~:text=Front-end%20developers%20have%20a,digital%20products%20is%20incredibly%20rewarding)
   - In addition, there is some content from the Code Institute [Career Support](https://codeinstitute.net/de/career-hub/?_gl=1*4muh7x*_up*MQ..*_ga*MTg0OTgxNjY4Mi4xNzE0NjY4Njc1*_ga_QFGPY7G0M3*MTcxNDY2ODY3NC4xLjAuMTcxNDY2ODY3NC4wLjAuNzQzNDk5MTc1) Website. These texts were also paraphrased by me and adapted to the needs of the website.
 
@@ -563,4 +583,5 @@ To clone the the repository:
 [Top](#contents)
 
 ## Most importantly:
+
 ### My wife, who encourages me in all my endeavours, and without her unwavering support, none of this would be possible.

@@ -1,6 +1,7 @@
 # Tests
 
 ### Manual Testing
+
   - [Lighthouse](#lighthouse)
   - [HTML](#html)
   - [External Testing](#external-testing)
@@ -17,7 +18,7 @@
 
 ![wave-html](assets/feature-img/wave-html.png)
 
-  - The colours on the links to the respective pages are part of the colour concept of the website. 
+  - The colours on the links to the respective pages are part of the colour concept of the website.
   - However, these three links resulted in a poor contrast rating but overall a minimal change in the overall accessibility rating.
   - Also, the digital numbers from the clock example are made of text elements, which is not ideal for screen readers.
   - The rating is never less than 94% on all pages.
@@ -27,7 +28,7 @@
 
 ![wave-css](assets/feature-img/wave-css.png)
 
-  - The colours on the links to the respective pages are part of the colour concept of the website. 
+  - The colours on the links to the respective pages are part of the colour concept of the website.
   - However, these three links resulted in a poor contrast rating but overall a minimal change in the overall accessibility rating.
   - Also, the digital numbers from the clock example are made of text elements, which is not ideal for screen readers.
   - The rating is never less than 94% on all pages.
@@ -37,7 +38,7 @@
 
 ![wave-js](assets/feature-img/wave-js.png)
 
-  - The colours on the links to the respective pages are part of the colour concept of the website. 
+  - The colours on the links to the respective pages are part of the colour concept of the website.
   - However, these three links resulted in a poor contrast rating but overall a minimal change in the overall accessibility rating.
   - Also, the digital numbers from the clock example are made of text elements, which is not ideal for screen readers.
   - The rating is never less than 94% on all pages.
@@ -104,6 +105,7 @@
   - pass
 
 #### Wave
+
 - redundant links in navbar
   - solution - add different alt description to the effected links
 
@@ -143,7 +145,7 @@
 
 <div align="left">
 
-## External Testing   
+## External Testing
 
 Additional testing was taken by friends and family on a variety of devices and screen sizes.
 
@@ -216,4 +218,5 @@ Additional testing was taken by friends and family on a variety of devices and s
 </div>
 
 [Top](#tests)
+
 - - -
