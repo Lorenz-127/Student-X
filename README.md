@@ -121,24 +121,27 @@ The project aims to encourage individuals in the 45+ age group to explore the fi
 
 ### Wireframes  
 
-#### Original Design
+#### Lofi Design
 
-- These are my notes on the fly after the first grid design didn't work, and I had to change the layout on the spot.
+- Wireframe with basic layout after the first grid design failed. I didn't draw all the different pages, but this visualisation helped me to get a better overview of the new design.
 
 #### Home 
-- Desktop
+- Desktop large
 
-![wire-desktop](assets/feature-img/wire-desktop.png)
+![wire-desktop-large](assets/feature-img/wire-desktop-bq.png)
+
+- Desktop basic
+
+![wire-desktop-basic](assets/feature-img/wire-desktop-s-bq.png)
 
 - Tablet
 
-![wire-tablet](assets/feature-img/wire-tablet.png)
+![wire-tablet](assets/feature-img/wire-tablet-bq.png)
 
 - Mobile
 
-![wire-mobile](assets/feature-img/wire-mobile.png)
+![wire-mobile](assets/feature-img/wire-mobile-bq.png)
 
-- To save some paper and the associated trees, I sketched the wireframes on my Re-Markable 2.
 
 [Top](#contents)
 
