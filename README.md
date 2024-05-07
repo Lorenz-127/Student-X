@@ -178,12 +178,32 @@ The idea for this website was not the first thing that came to my mind. I though
 
 ![js](assets/feature-img/js-full.png)
 
+
+
 ### Quiz
 
 - The quiz is intended to be an interactive way for users to reflect on the content of the website through a playful approach.
 - It is also intended to motivate users to find out more about front-end developers as a career change.
 
 ![quiz](assets/feature-img/quiz-full.png)
+
+### Required fields responses:
+
+- Name field
+
+![Name](assets/feature-img/field-required-name.png)
+
+- Email field
+
+![Email](assets/feature-img/field-required-email.png)
+
+- Email validation
+
+![Email](assets/feature-img/field-required-email-wrong.png)
+
+- Age range
+
+![Age](assets/feature-img/field-required-dropdown.png)
 
 ### Confirmation
 
