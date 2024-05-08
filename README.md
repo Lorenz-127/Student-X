@@ -14,7 +14,7 @@ Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://lorenz-127.
 ---
 ## CONTENTS
 
-* [User Experience](#user-experience-ux)
+* [User Experience](#user-experience)
   * [User Stories](#user-stories)
 
 * [Design](#design)
@@ -40,10 +40,8 @@ Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://lorenz-127.
 * [Testing](#testing)
 
 * [Credits](#credits)
-  * [Code Used](#code-used)
   * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
+  * [Acknowledgments](#acknowledgements)
 
 
 ## User Experience
